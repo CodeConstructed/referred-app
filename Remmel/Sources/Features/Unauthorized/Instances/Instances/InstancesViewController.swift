@@ -16,6 +16,8 @@ extension InstancesViewController {
     struct Appearance {
         // swiftlint:disable:next force_unwrapping
         let mainLemmyInstance = InstanceUrl(string: "https://lemmy.ml/")!
+        // swiftlint:disable:next force_unwrapping
+        let mainReferredInstance = InstanceUrl(string: "https://app.referredby.xyz/")!
     }
 }
 
@@ -65,10 +67,11 @@ class InstancesViewController: UIViewController {
         super.viewWillAppear(animated)
         
         self.viewModel.doInstancesRefresh(request: .init())
-        
+                
         if LemmyShareData.shared.needsAppOnboarding {
             self.coordinator?.goToOnboarding(
                 onUserOwnInstance: {
+                    //self.viewModel.doAddInstance(request: .init(link: self.appearance.mainReferredInstance))
                     self._goToInstance()
                 },
                 onLemmyMlInstance: {

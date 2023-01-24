@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		268B0A0DD843D4091C7B29B3 /* Pods_Referred.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233BE4FEBF98349555B73450 /* Pods_Referred.framework */; };
 		4E004E2525DC70C8006B81CF /* CopyableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E004E2425DC70C8006B81CF /* CopyableLabel.swift */; };
 		4E004E2925DC736C006B81CF /* Actionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E004E2825DC736C006B81CF /* Actionable.swift */; };
 		4E004E7C25DE7A5F006B81CF /* ControlContainableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E004E7B25DE7A5F006B81CF /* ControlContainableScrollView.swift */; };
@@ -386,6 +387,380 @@
 		657DF46A25968EAA00831B0F /* AddAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DF46925968EAA00831B0F /* AddAccountViewController.swift */; };
 		657DF46F25968EB500831B0F /* AddAccountsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DF46E25968EB500831B0F /* AddAccountsViewModel.swift */; };
 		657DF47425968EC200831B0F /* AddAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DF47325968EC200831B0F /* AddAccountView.swift */; };
+		BB4652A0297DBE8800E0CA1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECCEEB7250B8B6E0075F921 /* LaunchScreen.storyboard */; };
+		BB53F579297FD2A500ED7DF6 /* IconBlack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB53F573297FD2A300ED7DF6 /* IconBlack@3x.png */; };
+		BB53F57A297FD2A500ED7DF6 /* IconWhite@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB53F574297FD2A300ED7DF6 /* IconWhite@3x.png */; };
+		BB53F57B297FD2A500ED7DF6 /* IconBlack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB53F575297FD2A300ED7DF6 /* IconBlack@2x.png */; };
+		BB53F57C297FD2A500ED7DF6 /* IconBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = BB53F576297FD2A400ED7DF6 /* IconBlack.png */; };
+		BB53F57D297FD2A500ED7DF6 /* IconWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB53F577297FD2A400ED7DF6 /* IconWhite@2x.png */; };
+		BB53F57E297FD2A500ED7DF6 /* IconWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = BB53F578297FD2A500ED7DF6 /* IconWhite.png */; };
+		BBC282FE2971A7C000FDAAF3 /* markymark in Frameworks */ = {isa = PBXBuildFile; productRef = BBC282FD2971A7C000FDAAF3 /* markymark */; };
+		BBC283002971A7C600FDAAF3 /* SwiftMessages in Frameworks */ = {isa = PBXBuildFile; productRef = BBC282FF2971A7C600FDAAF3 /* SwiftMessages */; };
+		BBC283022971A7CA00FDAAF3 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BBC283012971A7CA00FDAAF3 /* KeychainSwift */; };
+		BBC283042971A7D500FDAAF3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BBC283032971A7D500FDAAF3 /* SnapKit */; };
+		BBC283062971A7DA00FDAAF3 /* XCGLogger in Frameworks */ = {isa = PBXBuildFile; productRef = BBC283052971A7DA00FDAAF3 /* XCGLogger */; };
+		BBC283082971A7DF00FDAAF3 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BBC283072971A7DF00FDAAF3 /* IQKeyboardManagerSwift */; };
+		BBC2830A2971A80F00FDAAF3 /* SwipeCellKit in Frameworks */ = {isa = PBXBuildFile; productRef = BBC283092971A80F00FDAAF3 /* SwipeCellKit */; };
+		BBC2844A2971B0DE00FDAAF3 /* LemmyCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEEB2250B8B6B0075F921 /* LemmyCoreData.xcdatamodeld */; };
+		BBC2844B2971B0F800FDAAF3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E98BFF225BB5498009DA520 /* Localizable.strings */; };
+		BBC2844E2971B7AA00FDAAF3 /* CommentsViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E918505256E9EAA00702F04 /* CommentsViewDelegate.swift */; };
+		BBC2844F2971B7AA00FDAAF3 /* SettingsTableSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183442566C16C00702F04 /* SettingsTableSectionHeaderView.swift */; };
+		BBC284502971B7AB00FDAAF3 /* SettingsRightDetailCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183402566C16C00702F04 /* SettingsRightDetailCellView.swift */; };
+		BBC284512971B7AB00FDAAF3 /* SelectItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183972567DCB100702F04 /* SelectItemViewModel.swift */; };
+		BBC284522971B7AB00FDAAF3 /* SettingsTableSectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183342566C16C00702F04 /* SettingsTableSectionFooterView.swift */; };
+		BBC284532971B7AB00FDAAF3 /* SelectItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E91839C2567DCC500702F04 /* SelectItemTableViewController.swift */; };
+		BBC284542971B7AB00FDAAF3 /* SettingsInputWithImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D44E82596203A00108DA3 /* SettingsInputWithImageTableViewCell.swift */; };
+		BBC284552971B7AB00FDAAF3 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E918507256E9EAA00702F04 /* CommentsViewController.swift */; };
+		BBC284562971B7AB00FDAAF3 /* AbstractComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E918508256E9EAA00702F04 /* AbstractComment.swift */; };
+		BBC284572971B7AB00FDAAF3 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E918506256E9EAA00702F04 /* CommentCell.swift */; };
+		BBC284582971B7AB00FDAAF3 /* SettingsTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183312566C16C00702F04 /* SettingsTableViewModel.swift */; };
+		BBC284592971B7AB00FDAAF3 /* SettingsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183322566C16C00702F04 /* SettingsTableView.swift */; };
+		BBC2845A2971B7AB00FDAAF3 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183362566C16C00702F04 /* SettingsTableViewCell.swift */; };
+		BBC2845B2971B7AC00FDAAF3 /* SettingsInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183382566C16C00702F04 /* SettingsInputTableViewCell.swift */; };
+		BBC2845C2971B7AC00FDAAF3 /* SettingsRightDetailSwitchCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183422566C16C00702F04 /* SettingsRightDetailSwitchCellView.swift */; };
+		BBC2845D2971B7AC00FDAAF3 /* SettingsRightDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E91833F2566C16C00702F04 /* SettingsRightDetailTableViewCell.swift */; };
+		BBC2845E2971B7AC00FDAAF3 /* SettingsLargeInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183392566C16C00702F04 /* SettingsLargeInputTableViewCell.swift */; };
+		BBC2845F2971B7AC00FDAAF3 /* SettingsInputWithImageCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D44E32596143A00108DA3 /* SettingsInputWithImageCellView.swift */; };
+		BBC284602971B7AC00FDAAF3 /* SettingsRightDetailSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183432566C16C00702F04 /* SettingsRightDetailSwitchTableViewCell.swift */; };
+		BBC284612972F92B00FDAAF3 /* EditPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E004F8E25DFF8B0006B81CF /* EditPostViewModel.swift */; };
+		BBC284622972F92B00FDAAF3 /* AuthRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886C1B25364DD70076B162 /* AuthRequests.swift */; };
+		BBC284632972F92B00FDAAF3 /* CommentContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9185C4257064CA00702F04 /* CommentContentHeaderView.swift */; };
+		BBC284642972F92C00FDAAF3 /* LemmyProfileIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEF32251F27170075F921 /* LemmyProfileIconView.swift */; };
+		BBC284652972F92C00FDAAF3 /* StyledNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB22182559EB3600B88079 /* StyledNavigationController.swift */; };
+		BBC284662972F92C00FDAAF3 /* TabSegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB224B255ADE4C00B88079 /* TabSegmentedControlView.swift */; };
+		BBC284672972F92C00FDAAF3 /* OnboardingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405B4625F156F600057F77 /* OnboardingButton.swift */; };
+		BBC284682972F92C00FDAAF3 /* CommunitiesPreviewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3FBC58258A857600F97671 /* CommunitiesPreviewDataSource.swift */; };
+		BBC284692972F92C00FDAAF3 /* AddAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DF46925968EAA00831B0F /* AddAccountViewController.swift */; };
+		BBC2846A2972F92C00FDAAF3 /* CommunityTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA81E72561EFBD008AF535 /* CommunityTableHeaderView.swift */; };
+		BBC2846B2972F92C00FDAAF3 /* ChooseCommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886CCD2541E1670076B162 /* ChooseCommunityViewController.swift */; };
+		BBC2846C2972F92C00FDAAF3 /* CreatePostUrlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886CA52540A27E0076B162 /* CreatePostUrlCell.swift */; };
+		BBC2846D2972F92C00FDAAF3 /* Actionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E004E2825DC736C006B81CF /* Actionable.swift */; };
+		BBC2846E2972F92C00FDAAF3 /* AppIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3414A25C1FF1100CEF6D6 /* AppIconManager.swift */; };
+		BBC2846F2972F92C00FDAAF3 /* Instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF1D4725920AC1004068CD /* Instance.swift */; };
+		BBC284702972F92D00FDAAF3 /* PushRouterSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E91838F2567DBE200702F04 /* PushRouterSourceProtocol.swift */; };
+		BBC284712972F92D00FDAAF3 /* PostContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF312F12576D3230032B58D /* PostContentHeaderView.swift */; };
+		BBC284722972F92D00FDAAF3 /* FrontPageSearchSubjectTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA81AF255F3FEB008AF535 /* FrontPageSearchSubjectTableCell.swift */; };
+		BBC284732972F92D00FDAAF3 /* PostScreenUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB89AFF251F4882007129BF /* PostScreenUI.swift */; };
+		BBC284742972F92D00FDAAF3 /* FoldableLemmyCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E918517256ECBC700702F04 /* FoldableLemmyCommentsViewController.swift */; };
+		BBC284752972F92D00FDAAF3 /* CreatePostContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886CAD2540A9820076B162 /* CreatePostContentCell.swift */; };
+		BBC284762972F92D00FDAAF3 /* FrontPageHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEEFD250CA30E0075F921 /* FrontPageHeaderCell.swift */; };
+		BBC284772972F92D00FDAAF3 /* InboxMessagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD007525A5F4A6006FCB9F /* InboxMessagesViewModel.swift */; };
+		BBC284782972F92D00FDAAF3 /* LoadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A7E6025573CC900E193B7 /* LoadingTableViewCell.swift */; };
+		BBC284792972F92D00FDAAF3 /* InstancesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87C69E258E680F0007FE5E /* InstancesCoordinator.swift */; };
+		BBC2847A2972F92D00FDAAF3 /* TableInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183752566F5B900702F04 /* TableInputTextField.swift */; };
+		BBC2847B2972F92D00FDAAF3 /* CommentTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E918511256E9EFD00702F04 /* CommentTypes.swift */; };
+		BBC2847C2972F92E00FDAAF3 /* CreateCommunityAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183C7256AFD8800702F04 /* CreateCommunityAssembly.swift */; };
+		BBC2847D2972F92E00FDAAF3 /* SiteRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886C2F2537598F0076B162 /* SiteRequests.swift */; };
+		BBC2847E2972F92E00FDAAF3 /* CreateCommunityChooseCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3AC84254B456400BEC9F1 /* CreateCommunityChooseCategoryCell.swift */; };
+		BBC2847F2972F92E00FDAAF3 /* HttpEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886CEB25442B3B0076B162 /* HttpEndpoint.swift */; };
+		BBC284802972F92E00FDAAF3 /* LMModels+Aggregates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E662725B1F33300AF2F48 /* LMModels+Aggregates.swift */; };
+		BBC284812972F92E00FDAAF3 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB22202559EB8B00B88079 /* UIColor+Ext.swift */; };
+		BBC284822972F92E00FDAAF3 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BBA2B25553516004FF2F9 /* Error.swift */; };
+		BBC284832972F92E00FDAAF3 /* CommentsFrontPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1070642534771C009EABDA /* CommentsFrontPageModel.swift */; };
+		BBC284842972F92E00FDAAF3 /* ProfileSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E110D4D25CB407800A06306 /* ProfileSettingsViewController.swift */; };
+		BBC284852972F92E00FDAAF3 /* CreatePostCommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886CA0254093040076B162 /* CreatePostCommunityCell.swift */; };
+		BBC284862972F92E00FDAAF3 /* CommunityHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3ACE925502D5600BEC9F1 /* CommunityHeaderView.swift */; };
+		BBC284872972F92E00FDAAF3 /* SearchRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886CE125422BDC0076B162 /* SearchRequests.swift */; };
+		BBC284882972F92F00FDAAF3 /* LemmySortListingPickersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BBA5325555571004FF2F9 /* LemmySortListingPickersView.swift */; };
+		BBC284892972F92F00FDAAF3 /* ReplyMentionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD00BA25A739CB006FCB9F /* ReplyMentionTableCell.swift */; };
+		BBC2848A2972F92F00FDAAF3 /* CommunityScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA81CA256165A4008AF535 /* CommunityScreenAssembly.swift */; };
+		BBC2848B2972F92F00FDAAF3 /* LMModels+Api+Websocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC63EFF25C6001900F6D6F1 /* LMModels+Api+Websocket.swift */; };
+		BBC2848C2972F92F00FDAAF3 /* InboxMentionsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD002C25A5EC37006FCB9F /* InboxMentionsAssembly.swift */; };
+		BBC2848D2972F92F00FDAAF3 /* AccountsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569A2192594E8F2005A4C54 /* AccountsViewModel.swift */; };
+		BBC2848E2972F92F00FDAAF3 /* UIAlertController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAB5902551858C00B32780 /* UIAlertController+Ext.swift */; };
+		BBC2848F2972F92F00FDAAF3 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3133E257832700032B58D /* SearchResultsViewController.swift */; };
+		BBC284902972F92F00FDAAF3 /* CreateCommunitySidebarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3AC99254C690400BEC9F1 /* CreateCommunitySidebarCell.swift */; };
+		BBC284912972F92F00FDAAF3 /* UserAccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA81B5255FF6B7008AF535 /* UserAccountService.swift */; };
+		BBC284922972F92F00FDAAF3 /* CommunityFollowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87C636258BF2AB0007FE5E /* CommunityFollowService.swift */; };
+		BBC284932972F92F00FDAAF3 /* InstancePersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4F67E258FF0EF0057BDCC /* InstancePersistenceService.swift */; };
+		BBC284942972F93000FDAAF3 /* AddAccountsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DF46425968E9F00831B0F /* AddAccountsAssembly.swift */; };
+		BBC284952972F93000FDAAF3 /* FrontPageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEEEE250BE89B0075F921 /* FrontPageCoordinator.swift */; };
+		BBC284962972F93000FDAAF3 /* InstancesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4F688259024C40057BDCC /* InstancesViewModel.swift */; };
+		BBC284972972F93000FDAAF3 /* ErrorDynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E004FC025E1BB48006B81CF /* ErrorDynamicValue.swift */; };
+		BBC284982972F93000FDAAF3 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886C35253872D10076B162 /* RegisterViewModel.swift */; };
+		BBC284992972F93000FDAAF3 /* PostContentCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF312EC2576D2EA0032B58D /* PostContentCenterView.swift */; };
+		BBC2849A2972F93000FDAAF3 /* OnboardingHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2A5CAD25F3C0DD00537E38 /* OnboardingHostingController.swift */; };
+		BBC2849B2972F93000FDAAF3 /* LemmySearchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEF2E251253B00075F921 /* LemmySearchBarController.swift */; };
+		BBC2849C2972F93000FDAAF3 /* UIStatusBarStyle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB223D255A000000B88079 /* UIStatusBarStyle+Ext.swift */; };
+		BBC2849D2972F93000FDAAF3 /* CommunityContentTypePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3AD0925510D1900BEC9F1 /* CommunityContentTypePickerCell.swift */; };
+		BBC2849E2972F93000FDAAF3 /* AddInstanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4F6A92590C6320057BDCC /* AddInstanceView.swift */; };
+		BBC2849F2972F93000FDAAF3 /* AttachmentTapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC63F7625C9CF8000F6D6F1 /* AttachmentTapGesture.swift */; };
+		BBC284A02972F93100FDAAF3 /* ReplyMentionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD00CD25A73ACA006FCB9F /* ReplyMentionProtocols.swift */; };
+		BBC284A12972F93100FDAAF3 /* FrontPageSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA8156255F3215008AF535 /* FrontPageSearchViewController.swift */; };
+		BBC284A22972F93100FDAAF3 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEEDC250B8D930075F921 /* AppCoordinator.swift */; };
+		BBC284A32972F93100FDAAF3 /* AddAccountsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DF46E25968EB500831B0F /* AddAccountsViewModel.swift */; };
+		BBC284A42972F93100FDAAF3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E98BFAB25B8DEE1009DA520 /* SettingsView.swift */; };
+		BBC284A52972F93100FDAAF3 /* MessageCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD009025A61A1D006FCB9F /* MessageCellView.swift */; };
+		BBC284A62972F93100FDAAF3 /* UIWindow+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2A0FCF259BC1CB00BF0841 /* UIWindow+Ext.swift */; };
+		BBC284A72972F93100FDAAF3 /* PostContentPreviewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87C67D258E1AD90007FE5E /* PostContentPreviewTableCell.swift */; };
+		BBC284A82972F93100FDAAF3 /* ShowContextCommentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF1D652593A691004068CD /* ShowContextCommentService.swift */; };
+		BBC284A92972F93100FDAAF3 /* GenericCoordinator+Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E88B14328F1F4DC0003D64F /* GenericCoordinator+Browser.swift */; };
+		BBC284AA2972F93100FDAAF3 /* CommunitiesPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3FBC50258A82B100F97671 /* CommunitiesPreviewView.swift */; };
+		BBC284AB2972F93100FDAAF3 /* CommentContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9185B72570646500702F04 /* CommentContentView.swift */; };
+		BBC284AC2972F93200FDAAF3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E98BFA125B8DEC3009DA520 /* SettingsViewController.swift */; };
+		BBC284AD2972F93200FDAAF3 /* InboxMentionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD003125A5EC52006FCB9F /* InboxMentionsViewModel.swift */; };
+		BBC284AE2972F93200FDAAF3 /* MilticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB222D2559EEFF00B88079 /* MilticastDelegate.swift */; };
+		BBC284AF2972F93200FDAAF3 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87C687258E23990007FE5E /* String+Ext.swift */; };
+		BBC284B02972F93200FDAAF3 /* CatalystDismissable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E50674C25D085CF003F1AB4 /* CatalystDismissable.swift */; };
+		BBC284B12972F93200FDAAF3 /* SwipingCommentTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E98C01025BCA71E009DA520 /* SwipingCommentTableCell.swift */; };
+		BBC284B22972F93200FDAAF3 /* CommunityMiniPreviewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886CD7254215B60076B162 /* CommunityMiniPreviewTableCell.swift */; };
+		BBC284B32972F93200FDAAF3 /* Notification+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAB5DC2552FA4300B32780 /* Notification+Ext.swift */; };
+		BBC284B42972F93200FDAAF3 /* SearchResultsTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF31346257839CF0032B58D /* SearchResultsTableDataSource.swift */; };
+		BBC284B52972F93200FDAAF3 /* LMModels+Api+Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E665B25B203C700AF2F48 /* LMModels+Api+Site.swift */; };
+		BBC284B62972F93200FDAAF3 /* InboxNotificationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD001125A5DC88006FCB9F /* InboxNotificationsViewModel.swift */; };
+		BBC284B72972F93200FDAAF3 /* FrontPageSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A8E8A255DD01500B06AF6 /* FrontPageSearchView.swift */; };
+		BBC284B82972F93300FDAAF3 /* ProfileScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE26858255972590009D2BC /* ProfileScreenAssembly.swift */; };
+		BBC284B92972F93300FDAAF3 /* ProfileChangePasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEA73A4263D5D0A00413B0B /* ProfileChangePasswordViewModel.swift */; };
+		BBC284BA2972F93300FDAAF3 /* CommunityScreenUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA81D425617580008AF535 /* CommunityScreenUI.swift */; };
+		BBC284BB2972F93300FDAAF3 /* ProfileChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEA73AE263D5D3C00413B0B /* ProfileChangePasswordViewController.swift */; };
+		BBC284BC2972F93300FDAAF3 /* CreateCommunityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3AC6E254A021400BEC9F1 /* CreateCommunityViewModel.swift */; };
+		BBC284BD2972F93300FDAAF3 /* CreateMediaPresentTransitionDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886C68253CD2950076B162 /* CreateMediaPresentTransitionDriver.swift */; };
+		BBC284BE2972F93300FDAAF3 /* SafariShareActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF313B2257BE8670032B58D /* SafariShareActivity.swift */; };
+		BBC284BF2972F93300FDAAF3 /* CommentTreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB89B3A25220DC6007129BF /* CommentTreeBuilder.swift */; };
+		BBC284C02972F93300FDAAF3 /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87C66D258E09D00007FE5E /* UIFont+Ext.swift */; };
+		BBC284C12972F93300FDAAF3 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E10709C25361846009EABDA /* AuthenticationView.swift */; };
+		BBC284C22972F93300FDAAF3 /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E73DF4E258BDBF2001608F2 /* Array+Ext.swift */; };
+		BBC284C32972F93300FDAAF3 /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569A2212594E8FC005A4C54 /* AccountsViewController.swift */; };
+		BBC284C42972F93400FDAAF3 /* CommunitiesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3FBC43258A812000F97671 /* CommunitiesAssembly.swift */; };
+		BBC284C52972F93400FDAAF3 /* CommentContentCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9185C92570650400702F04 /* CommentContentCenterView.swift */; };
+		BBC284C62972F93400FDAAF3 /* ImageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D450125964EA800108DA3 /* ImageControl.swift */; };
+		BBC284C72972F93400FDAAF3 /* ContentPreferencesStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF1DC12594C59F004068CD /* ContentPreferencesStorageManager.swift */; };
+		BBC284C82972F93400FDAAF3 /* PostContentFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF312E42576D2D10032B58D /* PostContentFooterView.swift */; };
+		BBC284C92972F93400FDAAF3 /* LemmyTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEEF1250C03A40075F921 /* LemmyTabBarCoordinator.swift */; };
+		BBC284CA2972F93400FDAAF3 /* InboxMentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD002725A5EC02006FCB9F /* InboxMentionViewController.swift */; };
+		BBC284CB2972F93400FDAAF3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886C412538C3540076B162 /* Config.swift */; };
+		BBC284CC2972F93400FDAAF3 /* LMModels+Others.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E666F25B217FA00AF2F48 /* LMModels+Others.swift */; };
+		BBC284CD2972F93400FDAAF3 /* InboxNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD000825A5DC26006FCB9F /* InboxNotificationsView.swift */; };
+		BBC284CE2972F93400FDAAF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEEA9250B8B6B0075F921 /* AppDelegate.swift */; };
+		BBC284CF2972F93400FDAAF3 /* AddInstanceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4F6992590C33F0057BDCC /* AddInstanceAssembly.swift */; };
+		BBC284D02972F93500FDAAF3 /* GenericCoordinator+Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E88B14928F1F6D60003D64F /* GenericCoordinator+Comment.swift */; };
+		BBC284D12972F93500FDAAF3 /* InboxNotificationsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDFFFE25A5DC06006FCB9F /* InboxNotificationsAssembly.swift */; };
+		BBC284D22972F93500FDAAF3 /* LMModels+Api+Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E666A25B214E900AF2F48 /* LMModels+Api+Comment.swift */; };
+		BBC284D32972F93500FDAAF3 /* LMModels+Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E665325B2035900AF2F48 /* LMModels+Api.swift */; };
+		BBC284D42972F93500FDAAF3 /* CreateCommunityDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183C2256AFB1200702F04 /* CreateCommunityDataFlow.swift */; };
+		BBC284D52972F93500FDAAF3 /* Optional+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E05D636255EBA63002307E0 /* Optional+Ext.swift */; };
+		BBC284D62972F93500FDAAF3 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2A0FD8259C877700BF0841 /* Drawable.swift */; };
+		BBC284D72972F93500FDAAF3 /* ContentView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405B3C25F156BF00057F77 /* ContentView+Ext.swift */; };
+		BBC284D82972F93500FDAAF3 /* AccountsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569A2262594E906005A4C54 /* AccountsCoordinator.swift */; };
+		BBC284D92972F93500FDAAF3 /* CreateCommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3AC61254A01DA00BEC9F1 /* CreateCommunityViewController.swift */; };
+		BBC284DA2972F93500FDAAF3 /* ScrollableStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB2250255ADFC900B88079 /* ScrollableStackView.swift */; };
+		BBC284DB2972F93500FDAAF3 /* LemmyNavSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E98BF9325B8DAAF009DA520 /* LemmyNavSettingsView.swift */; };
+		BBC284DC2972F93500FDAAF3 /* ProfileScreenUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A7E6525573EA400E193B7 /* ProfileScreenUI.swift */; };
+		BBC284DD2972F93600FDAAF3 /* CreatePostAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183872567284E00702F04 /* CreatePostAssembly.swift */; };
+		BBC284DE2972F93600FDAAF3 /* AddInstanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4F69E2590C35C0057BDCC /* AddInstanceViewController.swift */; };
+		BBC284DF2972F93600FDAAF3 /* AccountsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569A22B2594E90F005A4C54 /* AccountsAssembly.swift */; };
+		BBC284E02972F93600FDAAF3 /* CreatePostCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886C98253F679C0076B162 /* CreatePostCoordinator.swift */; };
+		BBC284E12972F93600FDAAF3 /* CreateCommunityNamesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3AC7A254AE12800BEC9F1 /* CreateCommunityNamesCell.swift */; };
+		BBC284E22972F93600FDAAF3 /* MessageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD008B25A60FCB006FCB9F /* MessageTableCell.swift */; };
+		BBC284E32972F93600FDAAF3 /* VoteGettable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E667425B224F600AF2F48 /* VoteGettable.swift */; };
+		BBC284E42972F93600FDAAF3 /* LMModels+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E66428625BCC20100E11E20 /* LMModels+Ext.swift */; };
+		BBC284E52972F93600FDAAF3 /* LemmyImageTextPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BBA582555560C004FF2F9 /* LemmyImageTextPickerView.swift */; };
+		BBC284E62972F93600FDAAF3 /* PostScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A8E92255DDE4500B06AF6 /* PostScreenAssembly.swift */; };
+		BBC284E72972F93600FDAAF3 /* LabelControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF313A1257BD5370032B58D /* LabelControl.swift */; };
+		BBC284E82972F93600FDAAF3 /* WSLemmyEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886CE6254429270076B162 /* WSLemmyEndpoint.swift */; };
+		BBC284E92972F93700FDAAF3 /* ProfileScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A7E6A25573F1800E193B7 /* ProfileScreenViewModel.swift */; };
+		BBC284EA2972F93700FDAAF3 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB221225598B0C00B88079 /* Assembly.swift */; };
+		BBC284EB2972F93700FDAAF3 /* AddInstanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4F6A32590C3650057BDCC /* AddInstanceViewModel.swift */; };
+		BBC284EC2972F93700FDAAF3 /* CommunitiesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEF20250FB3D40075F921 /* CommunitiesCoordinator.swift */; };
+		BBC284ED2972F93700FDAAF3 /* LemmyContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E66AD25B3393600AF2F48 /* LemmyContentType.swift */; };
+		BBC284EE2972F93700FDAAF3 /* PostContentPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87C682258E1B970007FE5E /* PostContentPreviewView.swift */; };
+		BBC284EF2972F93700FDAAF3 /* ProfileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E110D5125CB407E00A06306 /* ProfileSettingsView.swift */; };
+		BBC284F02972F93700FDAAF3 /* PostRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEF0B250CCD3E0075F921 /* PostRequests.swift */; };
+		BBC284F12972F93700FDAAF3 /* PictrsRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886D4A2545B81A0076B162 /* PictrsRequests.swift */; };
+		BBC284F22972F93700FDAAF3 /* FormatterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5C76725C20ED3004B2349 /* FormatterHelper.swift */; };
+		BBC284F32972F93700FDAAF3 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E98BFA625B8DECA009DA520 /* SettingsViewModel.swift */; };
+		BBC284F42972F93800FDAAF3 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAB5D72552FA1100B32780 /* UILabel+Ext.swift */; };
+		BBC284F52972F93800FDAAF3 /* GenericCoordinator+Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E88B13F28F1F45C0003D64F /* GenericCoordinator+Profile.swift */; };
+		BBC284F62972F93800FDAAF3 /* Instance+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF1D4825920AC1004068CD /* Instance+CoreDataProperties.swift */; };
+		BBC284F72972F93800FDAAF3 /* CodingUserInfoKey+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2A0F9E259B854300BF0841 /* CodingUserInfoKey+Ext.swift */; };
+		BBC284F82972F93800FDAAF3 /* CreateMediaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1070782534E97E009EABDA /* CreateMediaCoordinator.swift */; };
+		BBC284F92972F93800FDAAF3 /* LabeledTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB89B2F2521FDBE007129BF /* LabeledTextView.swift */; };
+		BBC284FA2972F93800FDAAF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEEAB250B8B6B0075F921 /* SceneDelegate.swift */; };
+		BBC284FB2972F93800FDAAF3 /* CommentTreeMutator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E004F6825DFAA2E006B81CF /* CommentTreeMutator.swift */; };
+		BBC284FC2972F93800FDAAF3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEEDF250B8DEE0075F921 /* Coordinator.swift */; };
+		BBC284FD2972F93800FDAAF3 /* MoreMarkdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3ACFE2550757200BEC9F1 /* MoreMarkdownViewController.swift */; };
+		BBC284FE2972F93900FDAAF3 /* LemmyDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5A677025C1A3D700BAA536 /* LemmyDecoder.swift */; };
+		BBC284FF2972F93900FDAAF3 /* ChooseCommunityAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183AE25696EAA00702F04 /* ChooseCommunityAssembly.swift */; };
+		BBC285002972F93900FDAAF3 /* ChooseCommunityUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886CD22541E1A20076B162 /* ChooseCommunityUI.swift */; };
+		BBC285012972F93900FDAAF3 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E10708D2534F7A7009EABDA /* LoginData.swift */; };
+		BBC285022972F93900FDAAF3 /* Extensions+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEF15250D2D9F0075F921 /* Extensions+UIKit.swift */; };
+		BBC285032972F93900FDAAF3 /* VoteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9182D22564151800702F04 /* VoteButton.swift */; };
+		BBC285042972F93900FDAAF3 /* Containered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB220825598AA700B88079 /* Containered.swift */; };
+		BBC285052972F93900FDAAF3 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886C16253626950076B162 /* RegisterView.swift */; };
+		BBC285062972F93900FDAAF3 /* ChooseCommunityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183A42567FE5500702F04 /* ChooseCommunityViewModel.swift */; };
+		BBC285072972F93900FDAAF3 /* InstancesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87C699258E67B60007FE5E /* InstancesViewController.swift */; };
+		BBC285082972F93900FDAAF3 /* WriteMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDFFF325A5CFC0006FCB9F /* WriteMessageView.swift */; };
+		BBC285092972F93900FDAAF3 /* LemmyUserMention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87C647258D33810007FE5E /* LemmyUserMention.swift */; };
+		BBC2850A2972F93A00FDAAF3 /* GenericCoordinator+Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E88B14128F1F48C0003D64F /* GenericCoordinator+Community.swift */; };
+		BBC2850B2972F93A00FDAAF3 /* CommentRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEF1C250D63BE0075F921 /* CommentRequests.swift */; };
+		BBC2850C2972F93A00FDAAF3 /* CreateMediaDismissTransitionDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886C72253CD4270076B162 /* CreateMediaDismissTransitionDriver.swift */; };
+		BBC2850D2972F93A00FDAAF3 /* UIStackView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAB5EB2552FC5000B32780 /* UIStackView+Ext.swift */; };
+		BBC2850E2972F93A00FDAAF3 /* PostsFrontPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E107052253476EE009EABDA /* PostsFrontPageViewController.swift */; };
+		BBC2850F2972F93A00FDAAF3 /* ProfileChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEA73A9263D5D1B00413B0B /* ProfileChangePasswordView.swift */; };
+		BBC285102972F93A00FDAAF3 /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886C7D253F4F290076B162 /* CreatePostViewController.swift */; };
+		BBC285112972F93A00FDAAF3 /* InstancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87C6A8258E68C20007FE5E /* InstancesView.swift */; };
+		BBC285122972F93A00FDAAF3 /* CreateCommunityDisplayNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3AC7F254AE25000BEC9F1 /* CreateCommunityDisplayNameCell.swift */; };
+		BBC285132972F93A00FDAAF3 /* SettingsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E98BF9C25B8DEB2009DA520 /* SettingsAssembly.swift */; };
+		BBC285142972F93A00FDAAF3 /* InboxMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD007A25A5F4AF006FCB9F /* InboxMessagesView.swift */; };
+		BBC285152972F93A00FDAAF3 /* WriteCommentParrentPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7CFCC025841B140082AC3D /* WriteCommentParrentPreviewCell.swift */; };
+		BBC285162972F93B00FDAAF3 /* LemmyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEEF3250C04280075F921 /* LemmyTabBarController.swift */; };
+		BBC285172972F93B00FDAAF3 /* MainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA3CCC527F0944800737A45 /* MainThread.swift */; };
+		BBC285182972F93B00FDAAF3 /* PostScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB89AF7251F47A7007129BF /* PostScreenViewController.swift */; };
+		BBC285192972F93B00FDAAF3 /* WeakBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB22332559EF2100B88079 /* WeakBox.swift */; };
+		BBC2851A2972F93B00FDAAF3 /* EditPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E004F8925DFF8A9006B81CF /* EditPostViewController.swift */; };
+		BBC2851B2972F93B00FDAAF3 /* PostType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E66A325B338DD00AF2F48 /* PostType.swift */; };
+		BBC2851C2972F93B00FDAAF3 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7CFCD42584215F0082AC3D /* UIImageView+Ext.swift */; };
+		BBC2851D2972F93B00FDAAF3 /* CreatePostDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E918382256726A400702F04 /* CreatePostDataFlow.swift */; };
+		BBC2851E2972F93B00FDAAF3 /* CommentsFrontPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E10705F2534770B009EABDA /* CommentsFrontPageViewController.swift */; };
+		BBC2851F2972F93B00FDAAF3 /* InboxNotificationSubmoduleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD001625A5E20B006FCB9F /* InboxNotificationSubmoduleProtocol.swift */; };
+		BBC285202972F93B00FDAAF3 /* LMModels+Api+Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E664725B1FD3C00AF2F48 /* LMModels+Api+Person.swift */; };
+		BBC285212972F93B00FDAAF3 /* CreatePostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886C8C253F51B90076B162 /* CreatePostViewModel.swift */; };
+		BBC285222972F93B00FDAAF3 /* LemmyCommunityMention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE0279D25AF93EE00D2952D /* LemmyCommunityMention.swift */; };
+		BBC285232972F93C00FDAAF3 /* AccountsPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2A0FC2259BA49400BF0841 /* AccountsPersistenceService.swift */; };
+		BBC285242972F93C00FDAAF3 /* AddAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DF47325968EC200831B0F /* AddAccountView.swift */; };
+		BBC285252972F93C00FDAAF3 /* InstancesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4F683259024B40057BDCC /* InstancesProvider.swift */; };
+		BBC285262972F93C00FDAAF3 /* CommentContentFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9185BF2570649D00702F04 /* CommentContentFooterView.swift */; };
+		BBC285272972F93C00FDAAF3 /* TableInputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E91837A2566F60600702F04 /* TableInputTextView.swift */; };
+		BBC285282972F93C00FDAAF3 /* LemmyTextWithSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886C3A2538BE830076B162 /* LemmyTextWithSwitch.swift */; };
+		BBC285292972F93C00FDAAF3 /* ProfileScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF314342581534C0032B58D /* ProfileScreenCoordinator.swift */; };
+		BBC2852A2972F93C00FDAAF3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87C6C8258EA92A0007FE5E /* CoreDataManager.swift */; };
+		BBC2852B2972F93C00FDAAF3 /* UIApplication+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A8E2E255BFC0000B06AF6 /* UIApplication+Ext.swift */; };
+		BBC2852C2972F93C00FDAAF3 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAB5C12552D32600B32780 /* Then.swift */; };
+		BBC2852D2972F93C00FDAAF3 /* ContentFocusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF1D6D2593EFCA004068CD /* ContentFocusable.swift */; };
+		BBC2852E2972F93C00FDAAF3 /* WriteMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDFFF825A5CFC8006FCB9F /* WriteMessageViewModel.swift */; };
+		BBC2852F2972F93D00FDAAF3 /* ReplyMentionCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD00BF25A73A55006FCB9F /* ReplyMentionCellView.swift */; };
+		BBC285302972F93D00FDAAF3 /* LMModels+Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E662F25B1F52E00AF2F48 /* LMModels+Source.swift */; };
+		BBC285312972F93D00FDAAF3 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEF05250CC3330075F921 /* ApiManager.swift */; };
+		BBC285322972F93D00FDAAF3 /* UserRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886C2025364EC30076B162 /* UserRequests.swift */; };
+		BBC285332972F93D00FDAAF3 /* CommunitiesPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEF22250FB3DE0075F921 /* CommunitiesPreviewViewController.swift */; };
+		BBC285342972F93D00FDAAF3 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405B4125F156D500057F77 /* OnboardingView.swift */; };
+		BBC285352972F93D00FDAAF3 /* InboxRepliesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD004725A5F30E006FCB9F /* InboxRepliesViewController.swift */; };
+		BBC285362972F93D00FDAAF3 /* ProgrammaticallyViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB220D25598AC100B88079 /* ProgrammaticallyViewProtocol.swift */; };
+		BBC285372972F93D00FDAAF3 /* FrontPageAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA81BA255FFD14008AF535 /* FrontPageAssembly.swift */; };
+		BBC285382972F93D00FDAAF3 /* LemmyModel+Pictrs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886D4525447E350076B162 /* LemmyModel+Pictrs.swift */; };
+		BBC285392972F93D00FDAAF3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEEAD250B8B6B0075F921 /* LoginViewController.swift */; };
+		BBC2853A2972F93E00FDAAF3 /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569A2302594E917005A4C54 /* AccountsView.swift */; };
+		BBC2853B2972F93E00FDAAF3 /* CreateCommunityImagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3AC94254B60F000BEC9F1 /* CreateCommunityImagesCell.swift */; };
+		BBC2853C2972F93E00FDAAF3 /* VoteButtonsWithScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF312FF2576D4610032B58D /* VoteButtonsWithScoreView.swift */; };
+		BBC2853D2972F93E00FDAAF3 /* CreateMediaTransitionDelegateImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886C60253CAF650076B162 /* CreateMediaTransitionDelegateImpl.swift */; };
+		BBC2853E2972F93E00FDAAF3 /* CreatePostUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886C87253F4FF40076B162 /* CreatePostUI.swift */; };
+		BBC2853F2972F93E00FDAAF3 /* UnderlineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF1D4225913117004068CD /* UnderlineTextField.swift */; };
+		BBC285402972F93E00FDAAF3 /* InstancesTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87C6AD258E696C0007FE5E /* InstancesTableDataSource.swift */; };
+		BBC285412972F93E00FDAAF3 /* ProfileScreenHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB2243255AD50C00B88079 /* ProfileScreenHeaderView.swift */; };
+		BBC285422972F93E00FDAAF3 /* PostScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E26FE9F2573E36C009DE4A7 /* PostScreenCoordinator.swift */; };
+		BBC285432972F93E00FDAAF3 /* InboxNotificationsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD001E25A5E669006FCB9F /* InboxNotificationsCoordinator.swift */; };
+		BBC285442972F93E00FDAAF3 /* CommentContentImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E98C01525BCA76B009DA520 /* CommentContentImpl.swift */; };
+		BBC285452972F93E00FDAAF3 /* TermsOfUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB2641225AC8A03003D5183 /* TermsOfUseView.swift */; };
+		BBC285462972F93F00FDAAF3 /* SearchResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3131F25782BBD0032B58D /* SearchResultsViewModel.swift */; };
+		BBC285472972F93F00FDAAF3 /* PostContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF312F62576D3400032B58D /* PostContentView.swift */; };
+		BBC285482972F93F00FDAAF3 /* InboxRepliesTableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD00A025A64C71006FCB9F /* InboxRepliesTableManager.swift */; };
+		BBC285492972F93F00FDAAF3 /* CreateCommunityUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3AC66254A020700BEC9F1 /* CreateCommunityUI.swift */; };
+		BBC2854A2972F93F00FDAAF3 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAB5E62552FA9300B32780 /* UITableView+Ext.swift */; };
+		BBC2854B2972F93F00FDAAF3 /* InstancesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87C6A3258E68560007FE5E /* InstancesAssembly.swift */; };
+		BBC2854C2972F93F00FDAAF3 /* CommunityScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3ACD0254EF82C00BEC9F1 /* CommunityScreenViewController.swift */; };
+		BBC2854D2972F93F00FDAAF3 /* Collection+SafeSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB22382559FC3000B88079 /* Collection+SafeSubscript.swift */; };
+		BBC2854E2972F93F00FDAAF3 /* LemmyFrontPageNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEF30251F24AD0075F921 /* LemmyFrontPageNavBar.swift */; };
+		BBC2854F2972F93F00FDAAF3 /* WSLemmyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEEE9250BA6230075F921 /* WSLemmyClient.swift */; };
+		BBC285502972F93F00FDAAF3 /* ProfileChangePasswordAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEA739F263D5CF000413B0B /* ProfileChangePasswordAssembly.swift */; };
+		BBC285512972F93F00FDAAF3 /* EditPostAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E004F8125DFF86F006B81CF /* EditPostAssembly.swift */; };
+		BBC285522972F94000FDAAF3 /* WriteMessageAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDFFE925A5CFAC006FCB9F /* WriteMessageAssembly.swift */; };
+		BBC285532972F94000FDAAF3 /* GenericCoordinator+Instances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E88B14728F1F6450003D64F /* GenericCoordinator+Instances.swift */; };
+		BBC285542972F94000FDAAF3 /* LMModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E663425B1F93B00AF2F48 /* LMModels.swift */; };
+		BBC285552972F94000FDAAF3 /* SearchResultsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3134B257910F00032B58D /* SearchResultsAssembly.swift */; };
+		BBC285562972F94000FDAAF3 /* InboxMentionsTableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD008525A60F1D006FCB9F /* InboxMentionsTableManager.swift */; };
+		BBC285572972F94000FDAAF3 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE0278F25AF82D800D2952D /* Date+Ext.swift */; };
+		BBC285582972F94000FDAAF3 /* LemmyJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E0F792555F5BC0086CE0C /* LemmyJSONDecoder.swift */; };
+		BBC285592972F94000FDAAF3 /* GenericCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3142E25811F870032B58D /* GenericCoordinator.swift */; };
+		BBC2855A2972F94000FDAAF3 /* MessageDynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E004FB225E0676B006B81CF /* MessageDynamicValue.swift */; };
+		BBC2855B2972F94000FDAAF3 /* ProfileSettingsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E110D4925CB406E00A06306 /* ProfileSettingsAssembly.swift */; };
+		BBC2855C2972F94000FDAAF3 /* ResizableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3AD042550908D00BEC9F1 /* ResizableButton.swift */; };
+		BBC2855D2972F94000FDAAF3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF1D572592365A004068CD /* Logger.swift */; };
+		BBC2855E2972F94100FDAAF3 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DF45525968B9900831B0F /* Account.swift */; };
+		BBC2855F2972F94100FDAAF3 /* ProfileScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E0F712555BCF70086CE0C /* ProfileScreenViewController.swift */; };
+		BBC285602972F94100FDAAF3 /* ContentScoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3135F257A7B530032B58D /* ContentScoreService.swift */; };
+		BBC285612972F94100FDAAF3 /* AccountsTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650B3F3F2596731B00A3CB17 /* AccountsTableDataSource.swift */; };
+		BBC285622972F94100FDAAF3 /* Account+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DF45625968B9900831B0F /* Account+CoreDataProperties.swift */; };
+		BBC285632972F94100FDAAF3 /* InboxNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD000325A5DC11006FCB9F /* InboxNotificationsViewController.swift */; };
+		BBC285642972F94100FDAAF3 /* PostScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E106F6425274325009EABDA /* PostScreenViewModel.swift */; };
+		BBC285652972F94100FDAAF3 /* LemmyVoteType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E66A825B3392500AF2F48 /* LemmyVoteType.swift */; };
+		BBC285662972F94100FDAAF3 /* CenterBackSwipeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405AC725EC1F0500057F77 /* CenterBackSwipeable.swift */; };
+		BBC285672972F94100FDAAF3 /* IncreasedTapAreaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E24395C259DE2200006C742 /* IncreasedTapAreaButton.swift */; };
+		BBC285682972F94100FDAAF3 /* LemmyGreenOutlinePostDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB89B042521EAA6007129BF /* LemmyGreenOutlinePostDescription.swift */; };
+		BBC285692972F94100FDAAF3 /* PostContentTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEF12250CF0290075F921 /* PostContentTableCell.swift */; };
+		BBC2856A2972F94200FDAAF3 /* LemmyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E10706A253477C1009EABDA /* LemmyTableView.swift */; };
+		BBC2856B2972F94200FDAAF3 /* InboxMessagesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD006B25A5F496006FCB9F /* InboxMessagesAssembly.swift */; };
+		BBC2856C2972F94200FDAAF3 /* InboxMentionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD003625A5EC59006FCB9F /* InboxMentionsView.swift */; };
+		BBC2856D2972F94200FDAAF3 /* CommunityPreviewCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E66428C25BCC34800E11E20 /* CommunityPreviewCellView.swift */; };
+		BBC2856E2972F94200FDAAF3 /* ScaledControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3136B257A7F910032B58D /* ScaledControl.swift */; };
+		BBC2856F2972F94200FDAAF3 /* InboxMessagesTableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD009B25A61AB4006FCB9F /* InboxMessagesTableManager.swift */; };
+		BBC285702972F94200FDAAF3 /* CreateMediaPresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886C4A253C95D20076B162 /* CreateMediaPresentAnimator.swift */; };
+		BBC285712972F94200FDAAF3 /* ShowMoreHandlerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF313A9257BDF6E0032B58D /* ShowMoreHandlerService.swift */; };
+		BBC285722972F94200FDAAF3 /* FrontPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEEEC250BE8870075F921 /* FrontPageViewController.swift */; };
+		BBC285732972F94200FDAAF3 /* CommunityHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAB6102553279700B32780 /* CommunityHeaderCell.swift */; };
+		BBC285742972F94200FDAAF3 /* LemmyCheckLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E10707D2534F5EC009EABDA /* LemmyCheckLogin.swift */; };
+		BBC285752972F94200FDAAF3 /* ContentView+Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405B3725F1568000057F77 /* ContentView+Onboarding.swift */; };
+		BBC285762972F94300FDAAF3 /* SearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF31353257920820032B58D /* SearchResultsView.swift */; };
+		BBC285772972F94300FDAAF3 /* CommentContentTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEF1E250DFBC90075F921 /* CommentContentTableCell.swift */; };
+		BBC285782972F94300FDAAF3 /* LemmyShareData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1070972535DF4F009EABDA /* LemmyShareData.swift */; };
+		BBC285792972F94300FDAAF3 /* InboxMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD007025A5F4A0006FCB9F /* InboxMessagesViewController.swift */; };
+		BBC2857A2972F94300FDAAF3 /* LMModels+Api+Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E666525B20D4A00AF2F48 /* LMModels+Api+Community.swift */; };
+		BBC2857B2972F94300FDAAF3 /* LMModels+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E663F25B1F9A100AF2F48 /* LMModels+Views.swift */; };
+		BBC2857C2972F94300FDAAF3 /* RequestsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEF08250CC3A60075F921 /* RequestsManager.swift */; };
+		BBC2857D2972F94300FDAAF3 /* FollowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E73DF69258BE964001608F2 /* FollowButton.swift */; };
+		BBC2857E2972F94300FDAAF3 /* FrontPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA81C225600056008AF535 /* FrontPageViewModel.swift */; };
+		BBC2857F2972F94300FDAAF3 /* CommunitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3FBC48258A812B00F97671 /* CommunitiesViewModel.swift */; };
+		BBC285802972F94300FDAAF3 /* UserPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF313BB257BEDC20032B58D /* UserPreviewCell.swift */; };
+		BBC285812972F94400FDAAF3 /* EditPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E004F9325DFF8C1006B81CF /* EditPostView.swift */; };
+		BBC285822972F94400FDAAF3 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAB5C62552F85D00B32780 /* UIView+Ext.swift */; };
+		BBC285832972F94400FDAAF3 /* WriteMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDFFEE25A5CFB8006FCB9F /* WriteMessageViewController.swift */; };
+		BBC285842972F94400FDAAF3 /* CopyableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E004E2425DC70C8006B81CF /* CopyableLabel.swift */; };
+		BBC285852972F94400FDAAF3 /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E73DF64258BE78D001608F2 /* LoadingButton.swift */; };
+		BBC285862972F94400FDAAF3 /* UniqueIdentifierType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183702566F51600702F04 /* UniqueIdentifierType.swift */; };
+		BBC285872972F94400FDAAF3 /* LMModels+Api+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E666025B208E100AF2F48 /* LMModels+Api+Post.swift */; };
+		BBC285882972F94400FDAAF3 /* CreateMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1070702534E96F009EABDA /* CreateMediaViewController.swift */; };
+		BBC285892972F94400FDAAF3 /* ProfileSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E110D5525CB408600A06306 /* ProfileSettingsViewModel.swift */; };
+		BBC2858A2972F94400FDAAF3 /* LemmyLightboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED87192744B2C600DB15A8 /* LemmyLightboxController.swift */; };
+		BBC2858B2972F94400FDAAF3 /* CommunityScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87C63B258C04BB0007FE5E /* CommunityScreenCoordinator.swift */; };
+		BBC2858C2972F94400FDAAF3 /* CommunityScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA81CF256165B1008AF535 /* CommunityScreenViewModel.swift */; };
+		BBC2858D2972F94500FDAAF3 /* CreateMediaDismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886C6D253CD40F0076B162 /* CreateMediaDismissAnimator.swift */; };
+		BBC2858E2972F94500FDAAF3 /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2A0FDD259C879B00BF0841 /* RouterProtocol.swift */; };
+		BBC2858F2972F94500FDAAF3 /* HttpLemmyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886CF0254430970076B162 /* HttpLemmyClient.swift */; };
+		BBC285902972F94500FDAAF3 /* InboxRepliesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD004C25A5F318006FCB9F /* InboxRepliesViewModel.swift */; };
+		BBC285912972F94500FDAAF3 /* CommunityRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEF28250FB8260075F921 /* CommunityRequests.swift */; };
+		BBC285922972F94500FDAAF3 /* InboxRepliesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD005125A5F31E006FCB9F /* InboxRepliesView.swift */; };
+		BBC285932972F94500FDAAF3 /* CommunityTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA81D9256175B3008AF535 /* CommunityTableDataSource.swift */; };
+		BBC285942972F94500FDAAF3 /* LMMMessagesToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E004F6D25DFE258006B81CF /* LMMMessagesToast.swift */; };
+		BBC285952972F94500FDAAF3 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB22252559EBAA00B88079 /* ColorPalette.swift */; };
+		BBC285962972F94500FDAAF3 /* ControlContainableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E004E7B25DE7A5F006B81CF /* ControlContainableScrollView.swift */; };
+		BBC285972972F94500FDAAF3 /* CommunityPreviewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCEF2A250FF56A0075F921 /* CommunityPreviewTableCell.swift */; };
+		BBC285982972F94500FDAAF3 /* ProfileScreenSubmoduleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB227D255AF7A600B88079 /* ProfileScreenSubmoduleProtocol.swift */; };
+		BBC285992972F94600FDAAF3 /* CreateCommunityCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3AC5C254A01CA00BEC9F1 /* CreateCommunityCoordinator.swift */; };
+		BBC2859A2972F94600FDAAF3 /* PostsFrontPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E10705A253476FC009EABDA /* PostsFrontPageModel.swift */; };
+		BBC2859B2972F94600FDAAF3 /* InboxRepliesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD004225A5F2FB006FCB9F /* InboxRepliesAssembly.swift */; };
+		BBC2859C2972F94600FDAAF3 /* ChooseCommunityTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9183A92567FF4200702F04 /* ChooseCommunityTableDataSource.swift */; };
+		BBC2859D2972F94600FDAAF3 /* LoginOrRegisterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB89B092521FA73007129BF /* LoginOrRegisterButton.swift */; };
+		BBC2859E2972F94600FDAAF3 /* ChainedWSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D44D52595D3B300108DA3 /* ChainedWSClient.swift */; };
+		BBC2859F2972F94600FDAAF3 /* GenericCoordinator+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E88B14528F1F58E0003D64F /* GenericCoordinator+Post.swift */; };
+		BBC285A02972FA4A00FDAAF3 /* ProfileScreenSubscribedAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A8E61255D589A00B06AF6 /* ProfileScreenSubscribedAssembly.swift */; };
+		BBC285A12972FA4A00FDAAF3 /* PostsTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8165622562B6FC00907D31 /* PostsTableDataSource.swift */; };
+		BBC285A22972FA4A00FDAAF3 /* ProfileScreenTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8165712562D08B00907D31 /* ProfileScreenTableHeaderView.swift */; };
+		BBC285A32972FA4A00FDAAF3 /* ProfileScreenPostsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB2262255AECB500B88079 /* ProfileScreenPostsUI.swift */; };
+		BBC285A42972FA4A00FDAAF3 /* ProfileScreenCommentsTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A8E3E255C01F400B06AF6 /* ProfileScreenCommentsTableDataSource.swift */; };
+		BBC285A52972FA4A00FDAAF3 /* ProfileScreenPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB2257255AE6E600B88079 /* ProfileScreenPostsViewController.swift */; };
+		BBC285A62972FA4A00FDAAF3 /* ProfileScreenCommentsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A8E51255C0BEC00B06AF6 /* ProfileScreenCommentsAssembly.swift */; };
+		BBC285A72972FA4A00FDAAF3 /* ProfileScreenAboutInputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A8E5B255D586F00B06AF6 /* ProfileScreenAboutInputProtocol.swift */; };
+		BBC285A82972FA4B00FDAAF3 /* ProfileScreenSubscribedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A8E70255D58E400B06AF6 /* ProfileScreenSubscribedView.swift */; };
+		BBC285A92972FA4B00FDAAF3 /* ProfileScreenSubscribedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A8E7B255D590800B06AF6 /* ProfileScreenSubscribedViewController.swift */; };
+		BBC285AA2972FA4B00FDAAF3 /* ProfileScreenSubscribedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A8E66255D58CD00B06AF6 /* ProfileScreenSubscribedViewModel.swift */; };
+		BBC285AB2972FA4B00FDAAF3 /* ProfileScreenPostsInputOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB2275255AF77400B88079 /* ProfileScreenPostsInputOutput.swift */; };
+		BBC285AC2972FA4B00FDAAF3 /* ProfileScreenCommentsInputOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A8E4C255C0AF900B06AF6 /* ProfileScreenCommentsInputOutput.swift */; };
+		BBC285AD2972FA4B00FDAAF3 /* ProfileScreenSubscribedTableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A8E6B255D58D900B06AF6 /* ProfileScreenSubscribedTableManager.swift */; };
+		BBC285AE2972FA4B00FDAAF3 /* ProfileScreenPostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB225C255AE71E00B88079 /* ProfileScreenPostsViewModel.swift */; };
+		BBC285AF2972FA4B00FDAAF3 /* ProfileScreenCommentsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A8E39255C01E800B06AF6 /* ProfileScreenCommentsUI.swift */; };
+		BBC285B02972FA4B00FDAAF3 /* ProfileScreenPostsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB226C255AF4F900B88079 /* ProfileScreenPostsAssembly.swift */; };
+		BBC285B12972FA4B00FDAAF3 /* ProfileScreenCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A8E34255C01DE00B06AF6 /* ProfileScreenCommentsViewController.swift */; };
+		BBC285B22972FA4B00FDAAF3 /* ProfileScreenCommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A8E46255C0A5500B06AF6 /* ProfileScreenCommentsViewModel.swift */; };
+		C8065CA2CA40C826707D50E9 /* Pods_Remmel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5F0BB9A3C7CCCF680DF745 /* Pods_Remmel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -406,6 +781,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0248BC98B6B2C646554BAF96 /* Pods-Referred.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Referred.debug.xcconfig"; path = "Target Support Files/Pods-Referred/Pods-Referred.debug.xcconfig"; sourceTree = "<group>"; };
+		233BE4FEBF98349555B73450 /* Pods_Referred.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Referred.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E004E2425DC70C8006B81CF /* CopyableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyableLabel.swift; sourceTree = "<group>"; };
 		4E004E2825DC736C006B81CF /* Actionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actionable.swift; sourceTree = "<group>"; };
 		4E004E7B25DE7A5F006B81CF /* ControlContainableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlContainableScrollView.swift; sourceTree = "<group>"; };
@@ -784,6 +1161,19 @@
 		657DF46925968EAA00831B0F /* AddAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountViewController.swift; sourceTree = "<group>"; };
 		657DF46E25968EB500831B0F /* AddAccountsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountsViewModel.swift; sourceTree = "<group>"; };
 		657DF47325968EC200831B0F /* AddAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountView.swift; sourceTree = "<group>"; };
+		7975AA98901992F235B87599 /* Pods-Remmel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remmel.release.xcconfig"; path = "Target Support Files/Pods-Remmel/Pods-Remmel.release.xcconfig"; sourceTree = "<group>"; };
+		AF9E5291792018DE1B6050FA /* Pods-Lemmy-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lemmy-iOS.release.xcconfig"; path = "Target Support Files/Pods-Lemmy-iOS/Pods-Lemmy-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		BB53F571297FCFD700ED7DF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB53F573297FD2A300ED7DF6 /* IconBlack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconBlack@3x.png"; sourceTree = "<group>"; };
+		BB53F574297FD2A300ED7DF6 /* IconWhite@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconWhite@3x.png"; sourceTree = "<group>"; };
+		BB53F575297FD2A300ED7DF6 /* IconBlack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconBlack@2x.png"; sourceTree = "<group>"; };
+		BB53F576297FD2A400ED7DF6 /* IconBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconBlack.png; sourceTree = "<group>"; };
+		BB53F577297FD2A400ED7DF6 /* IconWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconWhite@2x.png"; sourceTree = "<group>"; };
+		BB53F578297FD2A500ED7DF6 /* IconWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconWhite.png; sourceTree = "<group>"; };
+		BBA722FA297302DF007BA4FF /* Referred.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Referred.entitlements; sourceTree = "<group>"; };
+		BBC282EE29718C1800FDAAF3 /* Referred.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Referred.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D63785544A87E3B31D30C0 /* Pods-Referred.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Referred.release.xcconfig"; path = "Target Support Files/Pods-Referred/Pods-Referred.release.xcconfig"; sourceTree = "<group>"; };
+		F8130B334E7F53B10E26E71F /* Pods-Lemmy-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lemmy-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Lemmy-iOS/Pods-Lemmy-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -815,6 +1205,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC282EB29718C1800FDAAF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC283082971A7DF00FDAAF3 /* IQKeyboardManagerSwift in Frameworks */,
+				BBC282FE2971A7C000FDAAF3 /* markymark in Frameworks */,
+				BBC283002971A7C600FDAAF3 /* SwiftMessages in Frameworks */,
+				BBC283022971A7CA00FDAAF3 /* KeychainSwift in Frameworks */,
+				BBC2830A2971A80F00FDAAF3 /* SwipeCellKit in Frameworks */,
+				BBC283042971A7D500FDAAF3 /* SnapKit in Frameworks */,
+				BBC283062971A7DA00FDAAF3 /* XCGLogger in Frameworks */,
+				268B0A0DD843D4091C7B29B3 /* Pods_Referred.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1574,6 +1979,7 @@
 				4E91832F2566C12E00702F04 /* Libraries */,
 				4ECCEEC2250B8B6F0075F921 /* Remmel-iOSTests */,
 				4ECCEECD250B8B6F0075F921 /* Remmel-iOSUITests */,
+				BBC282EF29718C1800FDAAF3 /* Referred */,
 				4ECCEEA7250B8B6B0075F921 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1584,6 +1990,7 @@
 				4ECCEEA6250B8B6B0075F921 /* Remmel.app */,
 				4ECCEEBF250B8B6F0075F921 /* RemmelTests.xctest */,
 				4ECCEECA250B8B6F0075F921 /* RemmelUITests.xctest */,
+				BBC282EE29718C1800FDAAF3 /* Referred.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2187,6 +2594,51 @@
 			path = AddAccounts;
 			sourceTree = "<group>";
 		};
+		750E6997D470E00BE92AFA4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A5F0BB9A3C7CCCF680DF745 /* Pods_Remmel.framework */,
+				233BE4FEBF98349555B73450 /* Pods_Referred.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9295FD3B10BE5390706449EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8130B334E7F53B10E26E71F /* Pods-Lemmy-iOS.debug.xcconfig */,
+				AF9E5291792018DE1B6050FA /* Pods-Lemmy-iOS.release.xcconfig */,
+				618CC2621111B45C0C78E0A1 /* Pods-Remmel.debug.xcconfig */,
+				7975AA98901992F235B87599 /* Pods-Remmel.release.xcconfig */,
+				0248BC98B6B2C646554BAF96 /* Pods-Referred.debug.xcconfig */,
+				E9D63785544A87E3B31D30C0 /* Pods-Referred.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB53F572297FD17B00ED7DF6 /* AlternativeIcons */ = {
+			isa = PBXGroup;
+			children = (
+				BB53F576297FD2A400ED7DF6 /* IconBlack.png */,
+				BB53F575297FD2A300ED7DF6 /* IconBlack@2x.png */,
+				BB53F573297FD2A300ED7DF6 /* IconBlack@3x.png */,
+				BB53F578297FD2A500ED7DF6 /* IconWhite.png */,
+				BB53F577297FD2A400ED7DF6 /* IconWhite@2x.png */,
+				BB53F574297FD2A300ED7DF6 /* IconWhite@3x.png */,
+			);
+			path = AlternativeIcons;
+			sourceTree = "<group>";
+		};
+		BBC282EF29718C1800FDAAF3 /* Referred */ = {
+			isa = PBXGroup;
+			children = (
+				BB53F572297FD17B00ED7DF6 /* AlternativeIcons */,
+				BB53F571297FCFD700ED7DF6 /* Assets.xcassets */,
+				BBA722FA297302DF007BA4FF /* Referred.entitlements */,
+			);
+			path = Referred;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2256,13 +2708,42 @@
 			productReference = 4ECCEECA250B8B6F0075F921 /* RemmelUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		BBC282ED29718C1800FDAAF3 /* Referred */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC282FB29718C1A00FDAAF3 /* Build configuration list for PBXNativeTarget "Referred" */;
+			buildPhases = (
+				D1F670BE68B3919554C8D464 /* [CP] Check Pods Manifest.lock */,
+				BBC282EA29718C1800FDAAF3 /* Sources */,
+				BBC282EB29718C1800FDAAF3 /* Frameworks */,
+				BBC282EC29718C1800FDAAF3 /* Resources */,
+				237EF230D9723BF896EBF829 /* [CP] Embed Pods Frameworks */,
+				BBC2844D2971B67500FDAAF3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Referred;
+			packageProductDependencies = (
+				BBC282FD2971A7C000FDAAF3 /* markymark */,
+				BBC282FF2971A7C600FDAAF3 /* SwiftMessages */,
+				BBC283012971A7CA00FDAAF3 /* KeychainSwift */,
+				BBC283032971A7D500FDAAF3 /* SnapKit */,
+				BBC283052971A7DA00FDAAF3 /* XCGLogger */,
+				BBC283072971A7DF00FDAAF3 /* IQKeyboardManagerSwift */,
+				BBC283092971A80F00FDAAF3 /* SwipeCellKit */,
+			);
+			productName = Referred;
+			productReference = BBC282EE29718C1800FDAAF3 /* Referred.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		4ECCEE9E250B8B6B0075F921 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1170;
+				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = "Anton Kuzmin";
 				TargetAttributes = {
@@ -2276,6 +2757,9 @@
 					4ECCEEC9250B8B6F0075F921 = {
 						CreatedOnToolsVersion = 11.7;
 						TestTargetID = 4ECCEEA5250B8B6B0075F921;
+					};
+					BBC282ED29718C1800FDAAF3 = {
+						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
@@ -2306,6 +2790,7 @@
 			projectRoot = "";
 			targets = (
 				4ECCEEA5250B8B6B0075F921 /* Remmel */,
+				BBC282ED29718C1800FDAAF3 /* Referred */,
 				4ECCEEBE250B8B6F0075F921 /* RemmelTests */,
 				4ECCEEC9250B8B6F0075F921 /* RemmelUITests */,
 			);
@@ -2343,9 +2828,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BBC282EC29718C1800FDAAF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB53F57C297FD2A500ED7DF6 /* IconBlack.png in Resources */,
+				BB53F57A297FD2A500ED7DF6 /* IconWhite@3x.png in Resources */,
+				BB53F57E297FD2A500ED7DF6 /* IconWhite.png in Resources */,
+				BB4652A0297DBE8800E0CA1F /* LaunchScreen.storyboard in Resources */,
+				BB53F579297FD2A500ED7DF6 /* IconBlack@3x.png in Resources */,
+				BB53F57D297FD2A500ED7DF6 /* IconWhite@2x.png in Resources */,
+				BB53F57B297FD2A500ED7DF6 /* IconBlack@2x.png in Resources */,
+				BBC2844B2971B0F800FDAAF3 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		237EF230D9723BF896EBF829 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Referred/Pods-Referred-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Referred/Pods-Referred-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Referred/Pods-Referred-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4EF3AC9E254D557A00BEC9F1 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -2363,6 +2880,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		A16D6AA48269C83E850CEE76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Remmel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC2844D2971B67500FDAAF3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		D1F670BE68B3919554C8D464 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Referred-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E11AFFA1835005D5587B3DED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Remmel/Pods-Remmel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Remmel/Pods-Remmel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Remmel/Pods-Remmel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -2748,6 +3343,371 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BBC282EA29718C1800FDAAF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC285202972F93B00FDAAF3 /* LMModels+Api+Person.swift in Sources */,
+				BBC284CE2972F93400FDAAF3 /* AppDelegate.swift in Sources */,
+				BBC2852E2972F93C00FDAAF3 /* WriteMessageViewModel.swift in Sources */,
+				BBC284572971B7AB00FDAAF3 /* CommentCell.swift in Sources */,
+				BBC284522971B7AB00FDAAF3 /* SettingsTableSectionFooterView.swift in Sources */,
+				BBC2855B2972F94000FDAAF3 /* ProfileSettingsAssembly.swift in Sources */,
+				BBC284B22972F93200FDAAF3 /* CommunityMiniPreviewTableCell.swift in Sources */,
+				BBC284F92972F93800FDAAF3 /* LabeledTextView.swift in Sources */,
+				BBC285A72972FA4A00FDAAF3 /* ProfileScreenAboutInputProtocol.swift in Sources */,
+				BBC284552971B7AB00FDAAF3 /* CommentsViewController.swift in Sources */,
+				BBC2851C2972F93B00FDAAF3 /* UIImageView+Ext.swift in Sources */,
+				BBC2851E2972F93B00FDAAF3 /* CommentsFrontPageViewController.swift in Sources */,
+				BBC284912972F92F00FDAAF3 /* UserAccountService.swift in Sources */,
+				BBC285462972F93F00FDAAF3 /* SearchResultsViewModel.swift in Sources */,
+				BBC284FE2972F93900FDAAF3 /* LemmyDecoder.swift in Sources */,
+				BBC2852F2972F93D00FDAAF3 /* ReplyMentionCellView.swift in Sources */,
+				BBC2856E2972F94200FDAAF3 /* ScaledControl.swift in Sources */,
+				BBC2855C2972F94000FDAAF3 /* ResizableButton.swift in Sources */,
+				BBC284FA2972F93800FDAAF3 /* SceneDelegate.swift in Sources */,
+				BBC284DB2972F93500FDAAF3 /* LemmyNavSettingsView.swift in Sources */,
+				BBC285552972F94000FDAAF3 /* SearchResultsAssembly.swift in Sources */,
+				BBC2848B2972F92F00FDAAF3 /* LMModels+Api+Websocket.swift in Sources */,
+				BBC284682972F92C00FDAAF3 /* CommunitiesPreviewDataSource.swift in Sources */,
+				BBC2853E2972F93E00FDAAF3 /* CreatePostUI.swift in Sources */,
+				BBC285592972F94000FDAAF3 /* GenericCoordinator.swift in Sources */,
+				BBC285382972F93D00FDAAF3 /* LemmyModel+Pictrs.swift in Sources */,
+				BBC285B22972FA4B00FDAAF3 /* ProfileScreenCommentsViewModel.swift in Sources */,
+				BBC284CC2972F93400FDAAF3 /* LMModels+Others.swift in Sources */,
+				BBC284772972F92D00FDAAF3 /* InboxMessagesViewModel.swift in Sources */,
+				BBC285442972F93E00FDAAF3 /* CommentContentImpl.swift in Sources */,
+				BBC284622972F92B00FDAAF3 /* AuthRequests.swift in Sources */,
+				BBC285882972F94400FDAAF3 /* CreateMediaViewController.swift in Sources */,
+				BBC2853D2972F93E00FDAAF3 /* CreateMediaTransitionDelegateImpl.swift in Sources */,
+				BBC284C62972F93400FDAAF3 /* ImageControl.swift in Sources */,
+				BBC285922972F94500FDAAF3 /* InboxRepliesView.swift in Sources */,
+				BBC284922972F92F00FDAAF3 /* CommunityFollowService.swift in Sources */,
+				BBC284CB2972F93400FDAAF3 /* Config.swift in Sources */,
+				BBC285032972F93900FDAAF3 /* VoteButton.swift in Sources */,
+				BBC285022972F93900FDAAF3 /* Extensions+UIKit.swift in Sources */,
+				BBC285092972F93900FDAAF3 /* LemmyUserMention.swift in Sources */,
+				BBC284E52972F93600FDAAF3 /* LemmyImageTextPickerView.swift in Sources */,
+				BBC284C02972F93300FDAAF3 /* UIFont+Ext.swift in Sources */,
+				BBC284E62972F93600FDAAF3 /* PostScreenAssembly.swift in Sources */,
+				BBC2849D2972F93000FDAAF3 /* CommunityContentTypePickerCell.swift in Sources */,
+				BBC2857B2972F94300FDAAF3 /* LMModels+Views.swift in Sources */,
+				BBC285802972F94300FDAAF3 /* UserPreviewCell.swift in Sources */,
+				BBC284BD2972F93300FDAAF3 /* CreateMediaPresentTransitionDriver.swift in Sources */,
+				BBC284F52972F93800FDAAF3 /* GenericCoordinator+Profile.swift in Sources */,
+				BBC2853C2972F93E00FDAAF3 /* VoteButtonsWithScoreView.swift in Sources */,
+				BBC285872972F94400FDAAF3 /* LMModels+Api+Post.swift in Sources */,
+				BBC284802972F92E00FDAAF3 /* LMModels+Aggregates.swift in Sources */,
+				BBC2850B2972F93A00FDAAF3 /* CommentRequests.swift in Sources */,
+				BBC2858D2972F94500FDAAF3 /* CreateMediaDismissAnimator.swift in Sources */,
+				BBC284FB2972F93800FDAAF3 /* CommentTreeMutator.swift in Sources */,
+				BBC2855D2972F94000FDAAF3 /* Logger.swift in Sources */,
+				BBC285A82972FA4B00FDAAF3 /* ProfileScreenSubscribedView.swift in Sources */,
+				BBC2844A2971B0DE00FDAAF3 /* LemmyCoreData.xcdatamodeld in Sources */,
+				BBC284A82972F93100FDAAF3 /* ShowContextCommentService.swift in Sources */,
+				BBC285A92972FA4B00FDAAF3 /* ProfileScreenSubscribedViewController.swift in Sources */,
+				BBC285A42972FA4A00FDAAF3 /* ProfileScreenCommentsTableDataSource.swift in Sources */,
+				BBC2847C2972F92E00FDAAF3 /* CreateCommunityAssembly.swift in Sources */,
+				BBC284E42972F93600FDAAF3 /* LMModels+Ext.swift in Sources */,
+				BBC284D22972F93500FDAAF3 /* LMModels+Api+Comment.swift in Sources */,
+				BBC285482972F93F00FDAAF3 /* InboxRepliesTableManager.swift in Sources */,
+				BBC285892972F94400FDAAF3 /* ProfileSettingsViewModel.swift in Sources */,
+				BBC2850D2972F93A00FDAAF3 /* UIStackView+Ext.swift in Sources */,
+				BBC2856A2972F94200FDAAF3 /* LemmyTableView.swift in Sources */,
+				BBC2847D2972F92E00FDAAF3 /* SiteRequests.swift in Sources */,
+				BBC284DD2972F93600FDAAF3 /* CreatePostAssembly.swift in Sources */,
+				BBC284DA2972F93500FDAAF3 /* ScrollableStackView.swift in Sources */,
+				BBC285B02972FA4B00FDAAF3 /* ProfileScreenPostsAssembly.swift in Sources */,
+				BBC284C42972F93400FDAAF3 /* CommunitiesAssembly.swift in Sources */,
+				BBC285972972F94500FDAAF3 /* CommunityPreviewTableCell.swift in Sources */,
+				BBC2857E2972F94300FDAAF3 /* FrontPageViewModel.swift in Sources */,
+				BBC2854B2972F93F00FDAAF3 /* InstancesAssembly.swift in Sources */,
+				BBC285772972F94300FDAAF3 /* CommentContentTableCell.swift in Sources */,
+				BBC2859D2972F94600FDAAF3 /* LoginOrRegisterButton.swift in Sources */,
+				BBC284972972F93000FDAAF3 /* ErrorDynamicValue.swift in Sources */,
+				BBC284B52972F93200FDAAF3 /* LMModels+Api+Site.swift in Sources */,
+				BBC284702972F92D00FDAAF3 /* PushRouterSourceProtocol.swift in Sources */,
+				BBC284962972F93000FDAAF3 /* InstancesViewModel.swift in Sources */,
+				BBC2858C2972F94400FDAAF3 /* CommunityScreenViewModel.swift in Sources */,
+				BBC284932972F92F00FDAAF3 /* InstancePersistenceService.swift in Sources */,
+				BBC285162972F93B00FDAAF3 /* LemmyTabBarController.swift in Sources */,
+				BBC284632972F92B00FDAAF3 /* CommentContentHeaderView.swift in Sources */,
+				BBC284D42972F93500FDAAF3 /* CreateCommunityDataFlow.swift in Sources */,
+				BBC284842972F92E00FDAAF3 /* ProfileSettingsViewController.swift in Sources */,
+				BBC285082972F93900FDAAF3 /* WriteMessageView.swift in Sources */,
+				BBC284ED2972F93700FDAAF3 /* LemmyContentType.swift in Sources */,
+				BBC2857D2972F94300FDAAF3 /* FollowButton.swift in Sources */,
+				BBC284872972F92E00FDAAF3 /* SearchRequests.swift in Sources */,
+				BBC2857F2972F94300FDAAF3 /* CommunitiesViewModel.swift in Sources */,
+				BBC285632972F94100FDAAF3 /* InboxNotificationsViewController.swift in Sources */,
+				BBC284542971B7AB00FDAAF3 /* SettingsInputWithImageTableViewCell.swift in Sources */,
+				BBC285212972F93B00FDAAF3 /* CreatePostViewModel.swift in Sources */,
+				BBC284EA2972F93700FDAAF3 /* Assembly.swift in Sources */,
+				BBC284B72972F93200FDAAF3 /* FrontPageSearchView.swift in Sources */,
+				BBC285A62972FA4A00FDAAF3 /* ProfileScreenCommentsAssembly.swift in Sources */,
+				BBC285132972F93A00FDAAF3 /* SettingsAssembly.swift in Sources */,
+				BBC2859C2972F94600FDAAF3 /* ChooseCommunityTableDataSource.swift in Sources */,
+				BBC2858E2972F94500FDAAF3 /* RouterProtocol.swift in Sources */,
+				BBC284DE2972F93600FDAAF3 /* AddInstanceViewController.swift in Sources */,
+				BBC2855E2972F94100FDAAF3 /* Account.swift in Sources */,
+				BBC2847B2972F92D00FDAAF3 /* CommentTypes.swift in Sources */,
+				BBC2859B2972F94600FDAAF3 /* InboxRepliesAssembly.swift in Sources */,
+				BBC2855A2972F94000FDAAF3 /* MessageDynamicValue.swift in Sources */,
+				BBC284B42972F93200FDAAF3 /* SearchResultsTableDataSource.swift in Sources */,
+				BBC285672972F94100FDAAF3 /* IncreasedTapAreaButton.swift in Sources */,
+				BBC284942972F93000FDAAF3 /* AddAccountsAssembly.swift in Sources */,
+				BBC2845A2971B7AB00FDAAF3 /* SettingsTableViewCell.swift in Sources */,
+				BBC285742972F94200FDAAF3 /* LemmyCheckLogin.swift in Sources */,
+				BBC285542972F94000FDAAF3 /* LMModels.swift in Sources */,
+				BBC2858F2972F94500FDAAF3 /* HttpLemmyClient.swift in Sources */,
+				BBC285242972F93C00FDAAF3 /* AddAccountView.swift in Sources */,
+				BBC284892972F92F00FDAAF3 /* ReplyMentionTableCell.swift in Sources */,
+				BBC2846A2972F92C00FDAAF3 /* CommunityTableHeaderView.swift in Sources */,
+				BBC284FD2972F93800FDAAF3 /* MoreMarkdownViewController.swift in Sources */,
+				BBC2846C2972F92C00FDAAF3 /* CreatePostUrlCell.swift in Sources */,
+				BBC2854E2972F93F00FDAAF3 /* LemmyFrontPageNavBar.swift in Sources */,
+				BBC284562971B7AB00FDAAF3 /* AbstractComment.swift in Sources */,
+				BBC284EE2972F93700FDAAF3 /* PostContentPreviewView.swift in Sources */,
+				BBC285682972F94100FDAAF3 /* LemmyGreenOutlinePostDescription.swift in Sources */,
+				BBC284C32972F93300FDAAF3 /* AccountsViewController.swift in Sources */,
+				BBC285532972F94000FDAAF3 /* GenericCoordinator+Instances.swift in Sources */,
+				BBC285392972F93D00FDAAF3 /* LoginViewController.swift in Sources */,
+				BBC285222972F93B00FDAAF3 /* LemmyCommunityMention.swift in Sources */,
+				BBC284CA2972F93400FDAAF3 /* InboxMentionViewController.swift in Sources */,
+				BBC284E12972F93600FDAAF3 /* CreateCommunityNamesCell.swift in Sources */,
+				BBC2848C2972F92F00FDAAF3 /* InboxMentionsAssembly.swift in Sources */,
+				BBC285332972F93D00FDAAF3 /* CommunitiesPreviewViewController.swift in Sources */,
+				BBC284742972F92D00FDAAF3 /* FoldableLemmyCommentsViewController.swift in Sources */,
+				BBC285412972F93E00FDAAF3 /* ProfileScreenHeaderView.swift in Sources */,
+				BBC284AA2972F93100FDAAF3 /* CommunitiesPreviewView.swift in Sources */,
+				BBC284F22972F93700FDAAF3 /* FormatterHelper.swift in Sources */,
+				BBC284882972F92F00FDAAF3 /* LemmySortListingPickersView.swift in Sources */,
+				BBC284D82972F93500FDAAF3 /* AccountsCoordinator.swift in Sources */,
+				BBC284AB2972F93100FDAAF3 /* CommentContentView.swift in Sources */,
+				BBC284F42972F93800FDAAF3 /* UILabel+Ext.swift in Sources */,
+				BBC285372972F93D00FDAAF3 /* FrontPageAssembly.swift in Sources */,
+				BBC2844E2971B7AA00FDAAF3 /* CommentsViewDelegate.swift in Sources */,
+				BBC285192972F93B00FDAAF3 /* WeakBox.swift in Sources */,
+				BBC284BE2972F93300FDAAF3 /* SafariShareActivity.swift in Sources */,
+				BBC285152972F93A00FDAAF3 /* WriteCommentParrentPreviewCell.swift in Sources */,
+				BBC284F72972F93800FDAAF3 /* CodingUserInfoKey+Ext.swift in Sources */,
+				BBC285A22972FA4A00FDAAF3 /* ProfileScreenTableHeaderView.swift in Sources */,
+				BBC284AF2972F93200FDAAF3 /* String+Ext.swift in Sources */,
+				BBC284A52972F93100FDAAF3 /* MessageCellView.swift in Sources */,
+				BBC285792972F94300FDAAF3 /* InboxMessagesViewController.swift in Sources */,
+				BBC285312972F93D00FDAAF3 /* ApiManager.swift in Sources */,
+				BBC285992972F94600FDAAF3 /* CreateCommunityCoordinator.swift in Sources */,
+				BBC2854F2972F93F00FDAAF3 /* WSLemmyClient.swift in Sources */,
+				BBC284DF2972F93600FDAAF3 /* AccountsAssembly.swift in Sources */,
+				BBC284502971B7AB00FDAAF3 /* SettingsRightDetailCellView.swift in Sources */,
+				BBC284FC2972F93800FDAAF3 /* Coordinator.swift in Sources */,
+				BBC284AE2972F93200FDAAF3 /* MilticastDelegate.swift in Sources */,
+				BBC284712972F92D00FDAAF3 /* PostContentHeaderView.swift in Sources */,
+				BBC2849C2972F93000FDAAF3 /* UIStatusBarStyle+Ext.swift in Sources */,
+				BBC284F32972F93700FDAAF3 /* SettingsViewModel.swift in Sources */,
+				BBC284E92972F93700FDAAF3 /* ProfileScreenViewModel.swift in Sources */,
+				BBC285AE2972FA4B00FDAAF3 /* ProfileScreenPostsViewModel.swift in Sources */,
+				BBC285692972F94100FDAAF3 /* PostContentTableCell.swift in Sources */,
+				BBC284D62972F93500FDAAF3 /* Drawable.swift in Sources */,
+				BBC284EC2972F93700FDAAF3 /* CommunitiesCoordinator.swift in Sources */,
+				BBC284642972F92C00FDAAF3 /* LemmyProfileIconView.swift in Sources */,
+				BBC2846B2972F92C00FDAAF3 /* ChooseCommunityViewController.swift in Sources */,
+				BBC285782972F94300FDAAF3 /* LemmyShareData.swift in Sources */,
+				BBC2848A2972F92F00FDAAF3 /* CommunityScreenAssembly.swift in Sources */,
+				BBC284E22972F93600FDAAF3 /* MessageTableCell.swift in Sources */,
+				BBC2848E2972F92F00FDAAF3 /* UIAlertController+Ext.swift in Sources */,
+				BBC2854D2972F93F00FDAAF3 /* Collection+SafeSubscript.swift in Sources */,
+				BBC285172972F93B00FDAAF3 /* MainThread.swift in Sources */,
+				BBC284E82972F93600FDAAF3 /* WSLemmyEndpoint.swift in Sources */,
+				BBC285422972F93E00FDAAF3 /* PostScreenCoordinator.swift in Sources */,
+				BBC285822972F94400FDAAF3 /* UIView+Ext.swift in Sources */,
+				BBC284A12972F93100FDAAF3 /* FrontPageSearchViewController.swift in Sources */,
+				BBC2852A2972F93C00FDAAF3 /* CoreDataManager.swift in Sources */,
+				BBC284F82972F93800FDAAF3 /* CreateMediaCoordinator.swift in Sources */,
+				BBC284B92972F93300FDAAF3 /* ProfileChangePasswordViewModel.swift in Sources */,
+				BBC2847A2972F92D00FDAAF3 /* TableInputTextField.swift in Sources */,
+				BBC2858A2972F94400FDAAF3 /* LemmyLightboxController.swift in Sources */,
+				BBC284652972F92C00FDAAF3 /* StyledNavigationController.swift in Sources */,
+				BBC284CF2972F93400FDAAF3 /* AddInstanceAssembly.swift in Sources */,
+				BBC2850A2972F93A00FDAAF3 /* GenericCoordinator+Community.swift in Sources */,
+				BBC285862972F94400FDAAF3 /* UniqueIdentifierType.swift in Sources */,
+				BBC285012972F93900FDAAF3 /* LoginData.swift in Sources */,
+				BBC285852972F94400FDAAF3 /* LoadingButton.swift in Sources */,
+				BBC285932972F94500FDAAF3 /* CommunityTableDataSource.swift in Sources */,
+				BBC285362972F93D00FDAAF3 /* ProgrammaticallyViewProtocol.swift in Sources */,
+				BBC285102972F93A00FDAAF3 /* CreatePostViewController.swift in Sources */,
+				BBC284A22972F93100FDAAF3 /* AppCoordinator.swift in Sources */,
+				BBC285582972F94000FDAAF3 /* LemmyJSONDecoder.swift in Sources */,
+				BBC285A02972FA4A00FDAAF3 /* ProfileScreenSubscribedAssembly.swift in Sources */,
+				BBC284B82972F93300FDAAF3 /* ProfileScreenAssembly.swift in Sources */,
+				BBC284B12972F93200FDAAF3 /* SwipingCommentTableCell.swift in Sources */,
+				BBC285272972F93C00FDAAF3 /* TableInputTextView.swift in Sources */,
+				BBC285262972F93C00FDAAF3 /* CommentContentFooterView.swift in Sources */,
+				BBC2851F2972F93B00FDAAF3 /* InboxNotificationSubmoduleProtocol.swift in Sources */,
+				BBC2845D2971B7AC00FDAAF3 /* SettingsRightDetailTableViewCell.swift in Sources */,
+				BBC285AA2972FA4B00FDAAF3 /* ProfileScreenSubscribedViewModel.swift in Sources */,
+				BBC284732972F92D00FDAAF3 /* PostScreenUI.swift in Sources */,
+				BBC284512971B7AB00FDAAF3 /* SelectItemViewModel.swift in Sources */,
+				BBC284BF2972F93300FDAAF3 /* CommentTreeBuilder.swift in Sources */,
+				BBC2849F2972F93000FDAAF3 /* AttachmentTapGesture.swift in Sources */,
+				BBC2844F2971B7AA00FDAAF3 /* SettingsTableSectionHeaderView.swift in Sources */,
+				BBC285292972F93C00FDAAF3 /* ProfileScreenCoordinator.swift in Sources */,
+				BBC285052972F93900FDAAF3 /* RegisterView.swift in Sources */,
+				BBC2849A2972F93000FDAAF3 /* OnboardingHostingController.swift in Sources */,
+				BBC285942972F94500FDAAF3 /* LMMMessagesToast.swift in Sources */,
+				BBC284612972F92B00FDAAF3 /* EditPostViewModel.swift in Sources */,
+				BBC2859F2972F94600FDAAF3 /* GenericCoordinator+Post.swift in Sources */,
+				BBC284592971B7AB00FDAAF3 /* SettingsTableView.swift in Sources */,
+				BBC284782972F92D00FDAAF3 /* LoadingTableViewCell.swift in Sources */,
+				BBC284952972F93000FDAAF3 /* FrontPageCoordinator.swift in Sources */,
+				BBC284672972F92C00FDAAF3 /* OnboardingButton.swift in Sources */,
+				BBC284532971B7AB00FDAAF3 /* SelectItemTableViewController.swift in Sources */,
+				BBC284602971B7AC00FDAAF3 /* SettingsRightDetailSwitchTableViewCell.swift in Sources */,
+				BBC285512972F93F00FDAAF3 /* EditPostAssembly.swift in Sources */,
+				BBC284812972F92E00FDAAF3 /* UIColor+Ext.swift in Sources */,
+				BBC2852B2972F93C00FDAAF3 /* UIApplication+Ext.swift in Sources */,
+				BBC284D02972F93500FDAAF3 /* GenericCoordinator+Comment.swift in Sources */,
+				BBC285432972F93E00FDAAF3 /* InboxNotificationsCoordinator.swift in Sources */,
+				BBC2854C2972F93F00FDAAF3 /* CommunityScreenViewController.swift in Sources */,
+				BBC284B02972F93200FDAAF3 /* CatalystDismissable.swift in Sources */,
+				BBC284722972F92D00FDAAF3 /* FrontPageSearchSubjectTableCell.swift in Sources */,
+				BBC284C72972F93400FDAAF3 /* ContentPreferencesStorageManager.swift in Sources */,
+				BBC2849E2972F93000FDAAF3 /* AddInstanceView.swift in Sources */,
+				BBC285732972F94200FDAAF3 /* CommunityHeaderCell.swift in Sources */,
+				BBC2856C2972F94200FDAAF3 /* InboxMentionsView.swift in Sources */,
+				BBC285912972F94500FDAAF3 /* CommunityRequests.swift in Sources */,
+				BBC285502972F93F00FDAAF3 /* ProfileChangePasswordAssembly.swift in Sources */,
+				BBC285622972F94100FDAAF3 /* Account+CoreDataProperties.swift in Sources */,
+				BBC2847F2972F92E00FDAAF3 /* HttpEndpoint.swift in Sources */,
+				BBC284832972F92E00FDAAF3 /* CommentsFrontPageModel.swift in Sources */,
+				BBC285062972F93900FDAAF3 /* ChooseCommunityViewModel.swift in Sources */,
+				BBC284B62972F93200FDAAF3 /* InboxNotificationsViewModel.swift in Sources */,
+				BBC285702972F94200FDAAF3 /* CreateMediaPresentAnimator.swift in Sources */,
+				BBC284A32972F93100FDAAF3 /* AddAccountsViewModel.swift in Sources */,
+				BBC284E72972F93600FDAAF3 /* LabelControl.swift in Sources */,
+				BBC285712972F94200FDAAF3 /* ShowMoreHandlerService.swift in Sources */,
+				BBC2853B2972F93E00FDAAF3 /* CreateCommunityImagesCell.swift in Sources */,
+				BBC284D32972F93500FDAAF3 /* LMModels+Api.swift in Sources */,
+				BBC284822972F92E00FDAAF3 /* Error.swift in Sources */,
+				BBC284A72972F93100FDAAF3 /* PostContentPreviewTableCell.swift in Sources */,
+				BBC284A92972F93100FDAAF3 /* GenericCoordinator+Browser.swift in Sources */,
+				BBC2856B2972F94200FDAAF3 /* InboxMessagesAssembly.swift in Sources */,
+				BBC284E02972F93600FDAAF3 /* CreatePostCoordinator.swift in Sources */,
+				BBC2856D2972F94200FDAAF3 /* CommunityPreviewCellView.swift in Sources */,
+				BBC284852972F92E00FDAAF3 /* CreatePostCommunityCell.swift in Sources */,
+				BBC285962972F94500FDAAF3 /* ControlContainableScrollView.swift in Sources */,
+				BBC284C52972F93400FDAAF3 /* CommentContentCenterView.swift in Sources */,
+				BBC284792972F92D00FDAAF3 /* InstancesCoordinator.swift in Sources */,
+				BBC284D92972F93500FDAAF3 /* CreateCommunityViewController.swift in Sources */,
+				BBC284EF2972F93700FDAAF3 /* ProfileSettingsView.swift in Sources */,
+				BBC285982972F94500FDAAF3 /* ProfileScreenSubmoduleProtocol.swift in Sources */,
+				BBC2848D2972F92F00FDAAF3 /* AccountsViewModel.swift in Sources */,
+				BBC2850C2972F93A00FDAAF3 /* CreateMediaDismissTransitionDriver.swift in Sources */,
+				BBC2857C2972F94300FDAAF3 /* RequestsManager.swift in Sources */,
+				BBC285562972F94000FDAAF3 /* InboxMentionsTableManager.swift in Sources */,
+				BBC284BA2972F93300FDAAF3 /* CommunityScreenUI.swift in Sources */,
+				BBC285762972F94300FDAAF3 /* SearchResultsView.swift in Sources */,
+				BBC284CD2972F93400FDAAF3 /* InboxNotificationsView.swift in Sources */,
+				BBC285452972F93E00FDAAF3 /* TermsOfUseView.swift in Sources */,
+				BBC285282972F93C00FDAAF3 /* LemmyTextWithSwitch.swift in Sources */,
+				BBC2853F2972F93E00FDAAF3 /* UnderlineTextField.swift in Sources */,
+				BBC285952972F94500FDAAF3 /* ColorPalette.swift in Sources */,
+				BBC2849B2972F93000FDAAF3 /* LemmySearchBarController.swift in Sources */,
+				BBC285522972F94000FDAAF3 /* WriteMessageAssembly.swift in Sources */,
+				BBC285472972F93F00FDAAF3 /* PostContentView.swift in Sources */,
+				BBC284902972F92F00FDAAF3 /* CreateCommunitySidebarCell.swift in Sources */,
+				BBC284B32972F93200FDAAF3 /* Notification+Ext.swift in Sources */,
+				BBC2845B2971B7AC00FDAAF3 /* SettingsInputTableViewCell.swift in Sources */,
+				BBC285832972F94400FDAAF3 /* WriteMessageViewController.swift in Sources */,
+				BBC2846E2972F92C00FDAAF3 /* AppIconManager.swift in Sources */,
+				BBC2857A2972F94300FDAAF3 /* LMModels+Api+Community.swift in Sources */,
+				BBC284AC2972F93200FDAAF3 /* SettingsViewController.swift in Sources */,
+				BBC285352972F93D00FDAAF3 /* InboxRepliesViewController.swift in Sources */,
+				BBC284EB2972F93700FDAAF3 /* AddInstanceViewModel.swift in Sources */,
+				BBC285122972F93A00FDAAF3 /* CreateCommunityDisplayNameCell.swift in Sources */,
+				BBC285232972F93C00FDAAF3 /* AccountsPersistenceService.swift in Sources */,
+				BBC285842972F94400FDAAF3 /* CopyableLabel.swift in Sources */,
+				BBC284BB2972F93300FDAAF3 /* ProfileChangePasswordViewController.swift in Sources */,
+				BBC284582971B7AB00FDAAF3 /* SettingsTableViewModel.swift in Sources */,
+				BBC284D52972F93500FDAAF3 /* Optional+Ext.swift in Sources */,
+				BBC2846F2972F92C00FDAAF3 /* Instance.swift in Sources */,
+				BBC284A42972F93100FDAAF3 /* SettingsView.swift in Sources */,
+				BBC2851B2972F93B00FDAAF3 /* PostType.swift in Sources */,
+				BBC2846D2972F92C00FDAAF3 /* Actionable.swift in Sources */,
+				BBC285182972F93B00FDAAF3 /* PostScreenViewController.swift in Sources */,
+				BBC285112972F93A00FDAAF3 /* InstancesView.swift in Sources */,
+				BBC284BC2972F93300FDAAF3 /* CreateCommunityViewModel.swift in Sources */,
+				BBC284A02972F93100FDAAF3 /* ReplyMentionProtocols.swift in Sources */,
+				BBC285AD2972FA4B00FDAAF3 /* ProfileScreenSubscribedTableManager.swift in Sources */,
+				BBC2859E2972F94600FDAAF3 /* ChainedWSClient.swift in Sources */,
+				BBC285AC2972FA4B00FDAAF3 /* ProfileScreenCommentsInputOutput.swift in Sources */,
+				BBC285652972F94100FDAAF3 /* LemmyVoteType.swift in Sources */,
+				BBC284A62972F93100FDAAF3 /* UIWindow+Ext.swift in Sources */,
+				BBC285612972F94100FDAAF3 /* AccountsTableDataSource.swift in Sources */,
+				BBC2853A2972F93E00FDAAF3 /* AccountsView.swift in Sources */,
+				BBC284D72972F93500FDAAF3 /* ContentView+Ext.swift in Sources */,
+				BBC2851D2972F93B00FDAAF3 /* CreatePostDataFlow.swift in Sources */,
+				BBC285B12972FA4B00FDAAF3 /* ProfileScreenCommentsViewController.swift in Sources */,
+				BBC284FF2972F93900FDAAF3 /* ChooseCommunityAssembly.swift in Sources */,
+				BBC285A52972FA4A00FDAAF3 /* ProfileScreenPostsViewController.swift in Sources */,
+				BBC284F12972F93700FDAAF3 /* PictrsRequests.swift in Sources */,
+				BBC2852D2972F93C00FDAAF3 /* ContentFocusable.swift in Sources */,
+				BBC284AD2972F93200FDAAF3 /* InboxMentionsViewModel.swift in Sources */,
+				BBC285492972F93F00FDAAF3 /* CreateCommunityUI.swift in Sources */,
+				BBC285142972F93A00FDAAF3 /* InboxMessagesView.swift in Sources */,
+				BBC2845C2971B7AC00FDAAF3 /* SettingsRightDetailSwitchCellView.swift in Sources */,
+				BBC2852C2972F93C00FDAAF3 /* Then.swift in Sources */,
+				BBC2859A2972F94600FDAAF3 /* PostsFrontPageModel.swift in Sources */,
+				BBC284F62972F93800FDAAF3 /* Instance+CoreDataProperties.swift in Sources */,
+				BBC285A32972FA4A00FDAAF3 /* ProfileScreenPostsUI.swift in Sources */,
+				BBC285A12972FA4A00FDAAF3 /* PostsTableDataSource.swift in Sources */,
+				BBC285252972F93C00FDAAF3 /* InstancesProvider.swift in Sources */,
+				BBC285642972F94100FDAAF3 /* PostScreenViewModel.swift in Sources */,
+				BBC2845F2971B7AC00FDAAF3 /* SettingsInputWithImageCellView.swift in Sources */,
+				BBC2845E2971B7AC00FDAAF3 /* SettingsLargeInputTableViewCell.swift in Sources */,
+				BBC2855F2972F94100FDAAF3 /* ProfileScreenViewController.swift in Sources */,
+				BBC285812972F94400FDAAF3 /* EditPostView.swift in Sources */,
+				BBC2856F2972F94200FDAAF3 /* InboxMessagesTableManager.swift in Sources */,
+				BBC284752972F92D00FDAAF3 /* CreatePostContentCell.swift in Sources */,
+				BBC285902972F94500FDAAF3 /* InboxRepliesViewModel.swift in Sources */,
+				BBC285072972F93900FDAAF3 /* InstancesViewController.swift in Sources */,
+				BBC284D12972F93500FDAAF3 /* InboxNotificationsAssembly.swift in Sources */,
+				BBC284692972F92C00FDAAF3 /* AddAccountViewController.swift in Sources */,
+				BBC2848F2972F92F00FDAAF3 /* SearchResultsViewController.swift in Sources */,
+				BBC284DC2972F93500FDAAF3 /* ProfileScreenUI.swift in Sources */,
+				BBC284C82972F93400FDAAF3 /* PostContentFooterView.swift in Sources */,
+				BBC284C92972F93400FDAAF3 /* LemmyTabBarCoordinator.swift in Sources */,
+				BBC284982972F93000FDAAF3 /* RegisterViewModel.swift in Sources */,
+				BBC2854A2972F93F00FDAAF3 /* UITableView+Ext.swift in Sources */,
+				BBC2851A2972F93B00FDAAF3 /* EditPostViewController.swift in Sources */,
+				BBC285002972F93900FDAAF3 /* ChooseCommunityUI.swift in Sources */,
+				BBC285572972F94000FDAAF3 /* Date+Ext.swift in Sources */,
+				BBC285722972F94200FDAAF3 /* FrontPageViewController.swift in Sources */,
+				BBC285342972F93D00FDAAF3 /* OnboardingView.swift in Sources */,
+				BBC285302972F93D00FDAAF3 /* LMModels+Source.swift in Sources */,
+				BBC284E32972F93600FDAAF3 /* VoteGettable.swift in Sources */,
+				BBC2850F2972F93A00FDAAF3 /* ProfileChangePasswordView.swift in Sources */,
+				BBC285402972F93E00FDAAF3 /* InstancesTableDataSource.swift in Sources */,
+				BBC284662972F92C00FDAAF3 /* TabSegmentedControlView.swift in Sources */,
+				BBC284862972F92E00FDAAF3 /* CommunityHeaderView.swift in Sources */,
+				BBC285752972F94200FDAAF3 /* ContentView+Onboarding.swift in Sources */,
+				BBC284C12972F93300FDAAF3 /* AuthenticationView.swift in Sources */,
+				BBC2858B2972F94400FDAAF3 /* CommunityScreenCoordinator.swift in Sources */,
+				BBC285662972F94100FDAAF3 /* CenterBackSwipeable.swift in Sources */,
+				BBC285AF2972FA4B00FDAAF3 /* ProfileScreenCommentsUI.swift in Sources */,
+				BBC285AB2972FA4B00FDAAF3 /* ProfileScreenPostsInputOutput.swift in Sources */,
+				BBC285322972F93D00FDAAF3 /* UserRequests.swift in Sources */,
+				BBC285042972F93900FDAAF3 /* Containered.swift in Sources */,
+				BBC2847E2972F92E00FDAAF3 /* CreateCommunityChooseCategoryCell.swift in Sources */,
+				BBC2850E2972F93A00FDAAF3 /* PostsFrontPageViewController.swift in Sources */,
+				BBC284C22972F93300FDAAF3 /* Array+Ext.swift in Sources */,
+				BBC284992972F93000FDAAF3 /* PostContentCenterView.swift in Sources */,
+				BBC284762972F92D00FDAAF3 /* FrontPageHeaderCell.swift in Sources */,
+				BBC285602972F94100FDAAF3 /* ContentScoreService.swift in Sources */,
+				BBC284F02972F93700FDAAF3 /* PostRequests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -3045,6 +4005,76 @@
 			};
 			name = Release;
 		};
+		BBC282F929718C1A00FDAAF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0248BC98B6B2C646554BAF96 /* Pods-Referred.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CODE_SIGN_ENTITLEMENTS = Referred/Referred.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 73;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = SC643V6952;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Referred/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code-constructed.Referred";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBC282FA29718C1A00FDAAF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D63785544A87E3B31D30C0 /* Pods-Referred.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CODE_SIGN_ENTITLEMENTS = Referred/Referred.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 73;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = SC643V6952;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Referred/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code-constructed.Referred";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3080,6 +4110,15 @@
 			buildConfigurations = (
 				4ECCEEDA250B8B6F0075F921 /* Debug */,
 				4ECCEEDB250B8B6F0075F921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC282FB29718C1A00FDAAF3 /* Build configuration list for PBXNativeTarget "Referred" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC282F929718C1A00FDAAF3 /* Debug */,
+				BBC282FA29718C1A00FDAAF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3219,6 +4258,41 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4ECCEEF9250C13240075F921 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		BBC282FD2971A7C000FDAAF3 /* markymark */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E004F3E25DEBC7C006B81CF /* XCRemoteSwiftPackageReference "Marky-Mark" */;
+			productName = markymark;
+		};
+		BBC282FF2971A7C600FDAAF3 /* SwiftMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E004F5F25DFA81B006B81CF /* XCRemoteSwiftPackageReference "SwiftMessages" */;
+			productName = SwiftMessages;
+		};
+		BBC283012971A7CA00FDAAF3 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E1070822534F742009EABDA /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		BBC283032971A7D500FDAAF3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ECCEEF9250C13240075F921 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		BBC283052971A7DA00FDAAF3 /* XCGLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EBF1D5C25923723004068CD /* XCRemoteSwiftPackageReference "XCGLogger" */;
+			productName = XCGLogger;
+		};
+		BBC283072971A7DF00FDAAF3 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E98BFBF25BB2438009DA520 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		BBC283092971A80F00FDAAF3 /* SwipeCellKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E9184FA256E9E4E00702F04 /* XCRemoteSwiftPackageReference "SwipeCellKit" */;
+			productName = SwipeCellKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 
