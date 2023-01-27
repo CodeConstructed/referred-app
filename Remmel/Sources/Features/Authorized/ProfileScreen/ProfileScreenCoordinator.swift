@@ -31,4 +31,10 @@ final class ProfileScreenCoordinator: GenericCoordinator<ProfileScreenViewContro
         
         router?.present(navController, animated: true)
     }
+    
+    func goToAccounts() {
+        let assembly = InstancesAssembly()
+        let navController = UINavigationController(rootViewController: assembly.makeModule())
+        router?.present(navController, animated: true)
+    }
 }

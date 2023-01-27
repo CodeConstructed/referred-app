@@ -9,8 +9,6 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-Stepic.xcodeproj/xcuserdata/*
-xcuserdata
 *.xccheckout
 *.moved-aside
 DerivedData
@@ -39,7 +37,6 @@ Preview.html
 # Carthage/Checkouts
 
 Carthage/Build
-
 .DS_Store
 
 # AppCode

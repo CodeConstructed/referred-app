@@ -176,14 +176,14 @@ extension UIAlertController {
         let signUpAction = UIAlertAction(title: "alert-register".localized, style: .default) { _ in
             onRegister()
         }
-        
+        /*
         let anotherInstanceAction = UIAlertAction(title: "alert-choose-instance".localized, style: .default) { _ in
             onInstances()
         }
-        
+        */
         let cancelAction = UIAlertAction.cancelAction
         
-        [loginAction, signUpAction, anotherInstanceAction, cancelAction].forEach { action in
+        [loginAction, signUpAction, /*anotherInstanceAction,*/ cancelAction].forEach { action in
             alertController.addAction(action)
         }
         vc.present(alertController, animated: true, completion: nil)

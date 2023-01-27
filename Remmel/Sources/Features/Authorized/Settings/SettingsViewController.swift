@@ -171,6 +171,7 @@ extension SettingsViewController: SettingsViewControllerProtocol {
             )
         )
         
+        /*
         let instancesChangeInstance = SettingsTableSectionViewModel.Cell(
             uniqueIdentifier: TableForm.changeInstance.rawValue,
             type: .rightDetail(
@@ -184,6 +185,7 @@ extension SettingsViewController: SettingsViewControllerProtocol {
                 )
             )
         )
+        */
         
         let appIcon = SettingsTableSectionViewModel.Cell(
             uniqueIdentifier: TableForm.applicationIcon.rawValue,
@@ -245,11 +247,11 @@ extension SettingsViewController: SettingsViewControllerProtocol {
                 cells: [openSourceCell],
                 footer: nil
             ),
-            .init(
+            /*.init(
                 header: .init(title: "settings-instances".localized),
                 cells: [instancesChangeInstance],
                 footer: nil
-            ),
+            ),*/
             .init(
                 header: .init(title: "settings-app".localized),
                 cells: [appIcon, appVersion, appBuild, apiVersion],

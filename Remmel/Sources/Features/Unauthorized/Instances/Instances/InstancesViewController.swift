@@ -10,14 +10,14 @@ import UIKit
 
 protocol InstancesViewControllerProtocol: AnyObject {
     func displayInstances(viewModel: InstancesDataFlow.InstancesLoad.ViewModel)
+    func displayAccounts(instance: Instance)
 }
 
 extension InstancesViewController {
     struct Appearance {
         // swiftlint:disable:next force_unwrapping
         let mainLemmyInstance = InstanceUrl(string: "https://lemmy.ml/")!
-        // swiftlint:disable:next force_unwrapping
-        let mainReferredInstance = InstanceUrl(string: "https://app.referredby.xyz/")!
+        let referredInstanceLabel = "app.referredby.xyz"
     }
 }
 
@@ -67,17 +67,22 @@ class InstancesViewController: UIViewController {
         super.viewWillAppear(animated)
         
         self.viewModel.doInstancesRefresh(request: .init())
-                
+        
         if LemmyShareData.shared.needsAppOnboarding {
+            // swiftlint:disable:next force_unwrapping
+            self.viewModel.doAddInstance(request: .init(link: InstanceUrl(string: "https://" + self.appearance.referredInstanceLabel + "/")!))
+            LemmyShareData.shared.currentInstanceUrl = InstanceUrl(string: self.appearance.referredInstanceLabel)
+            
             self.coordinator?.goToOnboarding(
-                onUserOwnInstance: {
-                    //self.viewModel.doAddInstance(request: .init(link: self.appearance.mainReferredInstance))
-                    self._goToInstance()
+                onUserOwnInstance: { // overloaded Login
+                    self.viewModel.doInstanceLogin(request: .init(label: self.appearance.referredInstanceLabel))
                 },
-                onLemmyMlInstance: {
-                    self.viewModel.doAddInstance(request: .init(link: self.appearance.mainLemmyInstance))
+                onLemmyMlInstance: { // overloaded Register
+                    self.viewModel.doInstanceRegister(request: .init(label: self.appearance.referredInstanceLabel))
                 }
             )
+        } else {
+            self.viewModel.doInstanceLogin(request: .init(label: self.appearance.referredInstanceLabel))
         }
     }
     
@@ -131,6 +136,10 @@ extension InstancesViewController: InstancesViewControllerProtocol {
         
         tableManager.viewModels = instances
         updateState(newState: viewModel.state)
+    }
+    
+    func displayAccounts(instance: Instance) {
+        self.tableDidRequestAddAccountsModule(instance)
     }
 }
 

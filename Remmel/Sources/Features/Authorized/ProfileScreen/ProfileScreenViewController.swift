@@ -399,7 +399,7 @@ extension ProfileScreenViewController: ProfileScreenViewControllerProtocol {
                 [weak self] _ in
 
                 self?.viewModel.doProfileLogout()
-                self?.styledNavigationController?.popViewController(animated: true)
+                self?.coordinator?.goToAccounts()
             }
             
             let editProfileAction = UIAlertAction(title: "profile-edit".localized, style: .default) {
@@ -453,6 +453,7 @@ extension ProfileScreenViewController: ProfileScreenViewControllerProtocol {
             toEndpoint: viewModel.actorId.absoluteString
         )
         
+        /*
         let chooseInstanceAction = UIAlertAction(title: "alert-choose-instance".localized, style: .default) {
             [weak self] _ in
 
@@ -460,6 +461,7 @@ extension ProfileScreenViewController: ProfileScreenViewControllerProtocol {
         }
         
         alert.addAction(chooseInstanceAction)
+        */
         alert.addAction(shareAction)
         alert.addAction(UIAlertAction.cancelAction)
         

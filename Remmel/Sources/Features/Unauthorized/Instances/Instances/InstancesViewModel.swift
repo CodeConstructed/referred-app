@@ -13,6 +13,8 @@ protocol InstancesViewModelProtocol {
     func doInstancesRefresh(request: InstancesDataFlow.InstancesLoad.Request)
     func doAddInstance(request: InstancesDataFlow.AddInstance.Request)
     func doInstanceDelete(request: InstancesDataFlow.DeleteInstance.Request)
+    func doInstanceLogin(request: InstancesDataFlow.LoginInstance.Request)
+    func doInstanceRegister(request: InstancesDataFlow.RegisterInstance.Request)
 }
 
 class InstancesViewModel: InstancesViewModelProtocol {
@@ -62,6 +64,30 @@ class InstancesViewModel: InstancesViewModelProtocol {
             .sink(receiveValue: {})
             .store(in: &cancellable)
     }
+    
+    func doInstanceLogin(request: InstancesDataFlow.LoginInstance.Request) {
+        
+        provider.fetchInstance(label: request.label)
+            .receive(on: DispatchQueue.main)
+            .sink { instance in
+                if (instance != nil) {
+                    self.viewController?.displayAccounts(instance: instance!)
+                }
+                
+            }.store(in: &cancellable)
+    }
+    
+    func doInstanceRegister(request: InstancesDataFlow.RegisterInstance.Request) {
+        
+        provider.fetchInstance(label: request.label)
+            .receive(on: DispatchQueue.main)
+            .sink { instance in
+                if (instance != nil) {
+                    self.viewController?.displayAccounts(instance: instance!)
+                }
+                
+            }.store(in: &cancellable)
+    }
 }
 
 enum InstancesDataFlow {
@@ -87,6 +113,18 @@ enum InstancesDataFlow {
     enum DeleteInstance {
         struct Request {
             let instance: Instance
+        }
+    }
+    
+    enum LoginInstance {
+        struct Request {
+            let label: String
+        }
+    }
+    
+    enum RegisterInstance {
+        struct Request {
+            let label: String
         }
     }
     

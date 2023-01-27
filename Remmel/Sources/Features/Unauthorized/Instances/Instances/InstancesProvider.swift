@@ -14,6 +14,7 @@ protocol InstancesProviderProtocol {
     func addNewInstance(link: String) -> AnyPublisher<Instance, Never>
     
     func delete(_ instance: Instance) -> AnyPublisher<(), Never>
+    func fetchInstance(label: String) -> AnyPublisher<Instance?, Never>
 }
 
 class InstancesProvider: InstancesProviderProtocol {
@@ -38,5 +39,9 @@ class InstancesProvider: InstancesProviderProtocol {
             CoreDataHelper.shared.deleteFromStore(instance, save: true)
             promise(.success(()))
         }.eraseToAnyPublisher()
+    }
+    
+    func fetchInstance(label: String) -> AnyPublisher<Instance?, Never> {
+        instancesPersistenceService.fetch(id: label)
     }
 }

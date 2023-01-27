@@ -77,6 +77,7 @@ final class AccountsViewController: UIViewController {
     
     private func setupNavigationItem() {
         navigationItem.rightBarButtonItem = addAccountBarButton
+        navigationItem.hidesBackButton = true
     }
     
     private func updateState(newState: AccountsDataFlow.ViewControllerState) {

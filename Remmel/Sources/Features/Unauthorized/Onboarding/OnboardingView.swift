@@ -19,13 +19,14 @@ struct OnboardingView: View {
         VStack {
             Spacer()
             
-            Text("Welcome to Remmel!")
+            Text("Welcome to Referred!")
                 .font(.system(size: 50))
                 .fontWeight(.heavy)
                 .minimumScaleFactor(0.5)
                 .scaledToFit()
                 .padding(.init(top: 0, leading: 16, bottom: 0, trailing: 16))
             
+            /*
             VStack(alignment: .leading) {
                 NewDetail(image: "person.2.fill",
                           imageColor: .pink,
@@ -40,15 +41,16 @@ struct OnboardingView: View {
                           title: "Latest API",
                           description: "Remmel will support only latest version of lemmy.")
             }
+             */
             
             Spacer()
             
-            OnboardingButton(text: "Continue with my instance") {
+            OnboardingButton(text: "Login") {
                 self.dismiss?()
                 self.onUserOwnInstance?()
             }
             
-            OnboardingButton(text: "Continue with lemmy.ml") {
+            OnboardingButton(text: "Register") {
                 self.dismiss?()
                 self.onLemmyMlInstance?()
             }
