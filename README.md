@@ -1,17 +1,10 @@
-# Remmel for Lemmy
+# Referred iOS App
 
-[![Lemmer](https://uuttff8.github.io/static/imgs/App_Store_Badge_135x40.svg)](https://apps.apple.com/us/app/lemmer-client-for-lemmy/id1547988171)
-
-![](/design/LemmerScreens-1.png  "")
+This is a fork of the [Remmel iOS app](https://github.com/uuttff8/Remmel), with UI changes and penned to a specific backend instance. Use that one for Lemmy access (because it is awesome); don't use this one.
 
 ### Getting Help 
 We use [Lemmy](https://github.com/LemmyNet/lemmy/) backend. 
 
-- [Mastodon](https://mastodon.social/@LemmyDev)
-- [Matrix](https://matrix.to/#/#lemmy:matrix.org)
-
-or email uuttff8@gmail.com me.
-
 ### License 
-The Remmel project is available for free use, as described by the LICENSE (MIT).
+The Referred project is available for free use, as described by the LICENSE (MIT). As can be seen from the fork, most of the code is Copyrighted by and thanks to the author(s) of the awesome original project, [Remmel](https://github.com/uuttff8/Remmel).
 

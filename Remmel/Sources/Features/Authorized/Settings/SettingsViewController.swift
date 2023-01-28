@@ -115,7 +115,7 @@ extension SettingsViewController: SettingsViewControllerProtocol {
                 )
             )
         )
-        
+        /*
         let authorTwitterCell = SettingsTableSectionViewModel.Cell(
             uniqueIdentifier: TableForm.authorTwitter.rawValue,
             type: .rightDetail(
@@ -137,7 +137,7 @@ extension SettingsViewController: SettingsViewControllerProtocol {
                 )
             )
         )
-        
+        */
         let contactEmail = SettingsTableSectionViewModel.Cell(
             uniqueIdentifier: TableForm.contactEmail.rawValue,
             type: .rightDetail(
@@ -234,7 +234,7 @@ extension SettingsViewController: SettingsViewControllerProtocol {
         let sectionsViewModel: [SettingsTableSectionViewModel] = [
             .init(
                 header: .init(title: "settings-author".localized),
-                cells: [authorGhCell, authorTwitterCell, authorTelegramCell],
+                cells: [authorGhCell/*, authorTwitterCell, authorTelegramCell*/],
                 footer: nil
             ),
             .init(
@@ -338,7 +338,7 @@ extension SettingsViewController: SettingsViewDelegate {
 
             self.coordinator?.goToBrowser(with: myGh, inApp: false)
         case TableForm.contactEmail.rawValue:
-            self.sendEmail(to: "uuttff8@gmail.com")
+            self.sendEmail(to: "referred.app@gmail.com")
         case TableForm.contactMatrix.rawValue:
             guard let url = URL(string: "https://matrix.to/#/%23lemmy:matrix.org") else {
                 return
@@ -348,7 +348,7 @@ extension SettingsViewController: SettingsViewDelegate {
         case TableForm.changeInstance.rawValue:
             self.coordinator?.goToInstances()
         case TableForm.openSource.rawValue:
-            guard let url = URL(string: "https://github.com/uuttff8/Lemmy-iOS") else {
+            guard let url = URL(string: "https://github.com/CodeConstructed/referred-app") else {
                 return
             }
             
