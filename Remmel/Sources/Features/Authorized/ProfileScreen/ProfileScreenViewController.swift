@@ -398,8 +398,8 @@ extension ProfileScreenViewController: ProfileScreenViewControllerProtocol {
             let logoutAction = UIAlertAction(title: "alert-logout".localized, style: .destructive) {
                 [weak self] _ in
 
-                self?.viewModel.doProfileLogout()
-                self?.coordinator?.goToAccounts()
+                //self?.viewModel.doProfileLogout()
+                self?.coordinator?.goToInstances()
             }
             
             let editProfileAction = UIAlertAction(title: "profile-edit".localized, style: .default) {
