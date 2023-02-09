@@ -751,7 +751,6 @@
 		BB1E45452983BC6300EFEB43 /* XCGLogger in Frameworks */ = {isa = PBXBuildFile; productRef = BB1E43D02983BC6300EFEB43 /* XCGLogger */; };
 		BB1E45462983BC6300EFEB43 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BB1E43D22983BC6300EFEB43 /* IQKeyboardManagerSwift */; };
 		BB1E45472983BC6300EFEB43 /* SwipeCellKit in Frameworks */ = {isa = PBXBuildFile; productRef = BB1E43CE2983BC6300EFEB43 /* SwipeCellKit */; };
-		BB1E45482983BC6300EFEB43 /* Pods_Remmel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5F0BB9A3C7CCCF680DF745 /* Pods_Remmel.framework */; };
 		BB1E454C2983BC6300EFEB43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECCEEB7250B8B6E0075F921 /* LaunchScreen.storyboard */; };
 		BB1E454F2983BC6300EFEB43 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E98BFF225BB5498009DA520 /* Localizable.strings */; };
 		BB1E455A2983BDEF00EFEB43 /* IconWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = BB53F578297FD2A500ED7DF6 /* IconWhite.png */; };
@@ -761,7 +760,9 @@
 		BB1E455E2983BDEF00EFEB43 /* IconWhite@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB53F574297FD2A300ED7DF6 /* IconWhite@3x.png */; };
 		BB1E455F2983BDEF00EFEB43 /* IconBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = BB53F576297FD2A400ED7DF6 /* IconBlack.png */; };
 		BB1E45602983BE3B00EFEB43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB53F571297FCFD700ED7DF6 /* Assets.xcassets */; };
-		C8065CA2CA40C826707D50E9 /* Pods_Remmel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5F0BB9A3C7CCCF680DF745 /* Pods_Remmel.framework */; };
+		BBDE30112999361300654292 /* Lightbox in Frameworks */ = {isa = PBXBuildFile; productRef = BBDE30102999361300654292 /* Lightbox */; };
+		BBDE30132999362B00654292 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = BBDE30122999362B00654292 /* Nuke */; };
+		BBDE30152999363100654292 /* Pageboy in Frameworks */ = {isa = PBXBuildFile; productRef = BBDE30142999363100654292 /* Pageboy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1162,10 +1163,7 @@
 		657DF46925968EAA00831B0F /* AddAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountViewController.swift; sourceTree = "<group>"; };
 		657DF46E25968EB500831B0F /* AddAccountsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountsViewModel.swift; sourceTree = "<group>"; };
 		657DF47325968EC200831B0F /* AddAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountView.swift; sourceTree = "<group>"; };
-		7975AA98901992F235B87599 /* Pods-Remmel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remmel.release.xcconfig"; path = "Target Support Files/Pods-Remmel/Pods-Remmel.release.xcconfig"; sourceTree = "<group>"; };
-		AF9E5291792018DE1B6050FA /* Pods-Lemmy-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lemmy-iOS.release.xcconfig"; path = "Target Support Files/Pods-Lemmy-iOS/Pods-Lemmy-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		BB1E45582983BC6300EFEB43 /* Referred.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Referred.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB1E45592983BC6400EFEB43 /* Remmel copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Remmel copy-Info.plist"; path = "/Users/codeconstructed/Projects/referred-app/Remmel copy-Info.plist"; sourceTree = "<absolute>"; };
 		BB53F571297FCFD700ED7DF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB53F573297FD2A300ED7DF6 /* IconBlack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconBlack@3x.png"; sourceTree = "<group>"; };
 		BB53F574297FD2A300ED7DF6 /* IconWhite@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconWhite@3x.png"; sourceTree = "<group>"; };
@@ -1175,7 +1173,6 @@
 		BB53F578297FD2A500ED7DF6 /* IconWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconWhite.png; sourceTree = "<group>"; };
 		BBA722FA297302DF007BA4FF /* Referred.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Referred.entitlements; sourceTree = "<group>"; };
 		E9D63785544A87E3B31D30C0 /* Pods-Referred.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Referred.release.xcconfig"; path = "Target Support Files/Pods-Referred/Pods-Referred.release.xcconfig"; sourceTree = "<group>"; };
-		F8130B334E7F53B10E26E71F /* Pods-Lemmy-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lemmy-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Lemmy-iOS/Pods-Lemmy-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1214,14 +1211,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDE30152999363100654292 /* Pageboy in Frameworks */,
+				BBDE30132999362B00654292 /* Nuke in Frameworks */,
 				BB1E45412983BC6300EFEB43 /* markymark in Frameworks */,
+				BBDE30112999361300654292 /* Lightbox in Frameworks */,
 				BB1E45422983BC6300EFEB43 /* SwiftMessages in Frameworks */,
 				BB1E45432983BC6300EFEB43 /* KeychainSwift in Frameworks */,
 				BB1E45442983BC6300EFEB43 /* SnapKit in Frameworks */,
 				BB1E45452983BC6300EFEB43 /* XCGLogger in Frameworks */,
 				BB1E45462983BC6300EFEB43 /* IQKeyboardManagerSwift in Frameworks */,
 				BB1E45472983BC6300EFEB43 /* SwipeCellKit in Frameworks */,
-				BB1E45482983BC6300EFEB43 /* Pods_Remmel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1983,6 +1982,8 @@
 				4ECCEECD250B8B6F0075F921 /* Remmel-iOSUITests */,
 				BBC282EF29718C1800FDAAF3 /* Referred */,
 				4ECCEEA7250B8B6B0075F921 /* Products */,
+				BBDE300E2999334900654292 /* Recovered References */,
+				BBDE300F2999361300654292 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2596,28 +2597,6 @@
 			path = AddAccounts;
 			sourceTree = "<group>";
 		};
-		750E6997D470E00BE92AFA4E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5A5F0BB9A3C7CCCF680DF745 /* Pods_Remmel.framework */,
-				233BE4FEBF98349555B73450 /* Pods_Referred.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9295FD3B10BE5390706449EA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F8130B334E7F53B10E26E71F /* Pods-Lemmy-iOS.debug.xcconfig */,
-				AF9E5291792018DE1B6050FA /* Pods-Lemmy-iOS.release.xcconfig */,
-				618CC2621111B45C0C78E0A1 /* Pods-Remmel.debug.xcconfig */,
-				7975AA98901992F235B87599 /* Pods-Remmel.release.xcconfig */,
-				0248BC98B6B2C646554BAF96 /* Pods-Referred.debug.xcconfig */,
-				E9D63785544A87E3B31D30C0 /* Pods-Referred.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		BB53F572297FD17B00ED7DF6 /* AlternativeIcons */ = {
 			isa = PBXGroup;
 			children = (
@@ -2639,6 +2618,23 @@
 				BBA722FA297302DF007BA4FF /* Referred.entitlements */,
 			);
 			path = Referred;
+			sourceTree = "<group>";
+		};
+		BBDE300E2999334900654292 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				233BE4FEBF98349555B73450 /* Pods_Referred.framework */,
+				0248BC98B6B2C646554BAF96 /* Pods-Referred.debug.xcconfig */,
+				E9D63785544A87E3B31D30C0 /* Pods-Referred.release.xcconfig */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		BBDE300F2999361300654292 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2714,11 +2710,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB1E45552983BC6300EFEB43 /* Build configuration list for PBXNativeTarget "Referred" */;
 			buildPhases = (
-				BB1E43D82983BC6300EFEB43 /* [CP] Check Pods Manifest.lock */,
 				BB1E43D92983BC6300EFEB43 /* Sources */,
 				BB1E45402983BC6300EFEB43 /* Frameworks */,
 				BB1E45492983BC6300EFEB43 /* Resources */,
-				BB1E45532983BC6300EFEB43 /* [CP] Embed Pods Frameworks */,
 				BB1E45542983BC6300EFEB43 /* ShellScript */,
 			);
 			buildRules = (
@@ -2734,6 +2728,9 @@
 				BB1E43D22983BC6300EFEB43 /* IQKeyboardManagerSwift */,
 				BB1E43D42983BC6300EFEB43 /* markymark */,
 				BB1E43D62983BC6300EFEB43 /* SwiftMessages */,
+				BBDE30102999361300654292 /* Lightbox */,
+				BBDE30122999362B00654292 /* Nuke */,
+				BBDE30142999363100654292 /* Pageboy */,
 			);
 			productName = "Lemmy-iOS";
 			productReference = BB1E45582983BC6300EFEB43 /* Referred.app */;
@@ -2864,67 +2861,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
-		A16D6AA48269C83E850CEE76 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Remmel-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BB1E43D82983BC6300EFEB43 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Remmel-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BB1E45532983BC6300EFEB43 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Remmel/Pods-Remmel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Remmel/Pods-Remmel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Remmel/Pods-Remmel-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BB1E45542983BC6300EFEB43 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -2942,23 +2878,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-		E11AFFA1835005D5587B3DED /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Remmel/Pods-Remmel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Remmel/Pods-Remmel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Remmel/Pods-Remmel-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -4008,7 +3927,6 @@
 		};
 		BB1E45562983BC6300EFEB43 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 618CC2621111B45C0C78E0A1 /* Pods-Remmel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Referred/Referred.entitlements;
@@ -4038,7 +3956,6 @@
 		};
 		BB1E45572983BC6300EFEB43 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7975AA98901992F235B87599 /* Pods-Remmel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Referred/Referred.entitlements;
@@ -4162,7 +4079,7 @@
 			repositoryURL = "https://github.com/kean/Nuke.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
+				minimumVersion = 10.0.0;
 			};
 		};
 		4EAB0F352971623700B59AFE /* XCRemoteSwiftPackageReference "Lightbox" */ = {
@@ -4340,6 +4257,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BB1E43D72983BC6300EFEB43 /* XCRemoteSwiftPackageReference "SwiftMessages" */;
 			productName = SwiftMessages;
+		};
+		BBDE30102999361300654292 /* Lightbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EAB0F352971623700B59AFE /* XCRemoteSwiftPackageReference "Lightbox" */;
+			productName = Lightbox;
+		};
+		BBDE30122999362B00654292 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EAB0F302970772500B59AFE /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		BBDE30142999363100654292 /* Pageboy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EAB0F38297162B800B59AFE /* XCRemoteSwiftPackageReference "Pageboy" */;
+			productName = Pageboy;
 		};
 /* End XCSwiftPackageProductDependency section */
 

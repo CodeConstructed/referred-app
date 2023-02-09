@@ -37,7 +37,7 @@ extension UIImageView {
                 with: request,
                 options: options,
                 into: self
-            )
+            ) { _ in }
         } else {
             self.isHidden = true
         }
@@ -61,6 +61,7 @@ extension UIImageView {
                 with: request,
                 options: options,
                 into: self,
+                progress: nil,
                 completion: completion
             )
         } else {
