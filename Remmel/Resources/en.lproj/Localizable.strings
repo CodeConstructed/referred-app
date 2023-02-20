@@ -67,12 +67,12 @@
 "listing-all" = "All";
 "listing-subscribed" = "Subscribed";
 "listing-local" = "Local";
-"listing-community" = "Community";
+"listing-community" = "Topic";
 
 "searchtype-all" = "all";
 "searchtype-comments" = "comments";
 "searchtype-posts" = "posts";
-"searchtype-communities" = "communities";
+"searchtype-communities" = "topics";
 "searchtype-users" = "users";
 "searchtype-url" = "url";
 
@@ -96,7 +96,7 @@
 
 "inbox-notifications" = "Notifications";
 
-"communities" = "Communities";
+"communities" = "Topics";
 
 "follow-follow" = "Follow";
 "follow-unfollow" = "Unfollow";
@@ -127,10 +127,10 @@
 "create-comment-placeholder" = "Please enter a comment";
 
 "create-content-create-post" = "New Post";
-"create-content-create-community" = "New Community";
+"create-content-create-community" = "New Topic";
 "create-content-post" = "Post";
-"create-content-community" = "Community";
-"create-content-choose-community" = "Choose Community";
+"create-content-community" = "Topic";
+"create-content-choose-community" = "Choose Topic";
 "create-content-create-url" = "Create url";
 "create-content-create-url-placeholder" = "Enter url";
 "create-content-create-title-placeholder" = "Your title";
@@ -140,15 +140,15 @@
 "create-content-community-name-placeholder" = "Enter name";
 "create-content-community-name-description" = "Name – used as the identifier for the community, cannot be changed. Lowercase and underscore only";
 "create-content-community-display-name" = "Display name";
-"create-content-community-display-name-description" = "Display name — shown as the title on the community's page, can be changed.";
+"create-content-community-display-name-description" = "Display name — shown as the title on the topic's page, can be changed.";
 "create-content-community-name-placeholder" = "Enter display name";
 "create-content-community-choose-category" = "Choose category";
 "create-content-community-category" = "Category";
 "create-content-community-description" = "Description";
 "create-content-community-description-placeholder" = "Sidebar";
 "create-content-create-nsfw" = "NSFW";
-"create-content-title-error" = "Please title your community";
-"create-content-name-error" = "Please name your community";
+"create-content-title-error" = "Please title your topic";
+"create-content-name-error" = "Please name your topic";
 
 "instances" = "Instances";
 "instances-terms-1" = "By continuing you accept our ";
@@ -185,7 +185,7 @@
 "front-search-search" = "Search";
 "front-search-posts" = "Posts with";
 "front-search-users" = "Users with";
-"front-search-communities" = "Communities with";
+"front-search-communities" = "Topics with";
 "front-search-comments" = "Comments with";
 
 "toast-success" = "Success";
