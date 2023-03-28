@@ -105,6 +105,7 @@ extension SettingsViewController: SettingsViewControllerProtocol {
     }
     
     func displaySettingsForm(viewModel: SettingsDataFlow.SettingsForm.ViewModel) {
+        /*
         let authorGhCell = SettingsTableSectionViewModel.Cell(
             uniqueIdentifier: TableForm.authorGithub.rawValue,
             type: .rightDetail(
@@ -115,7 +116,6 @@ extension SettingsViewController: SettingsViewControllerProtocol {
                 )
             )
         )
-        /*
         let authorTwitterCell = SettingsTableSectionViewModel.Cell(
             uniqueIdentifier: TableForm.authorTwitter.rawValue,
             type: .rightDetail(
@@ -148,7 +148,7 @@ extension SettingsViewController: SettingsViewControllerProtocol {
                 )
             )
         )
-        
+        /*
         let contactMatrix = SettingsTableSectionViewModel.Cell(
             uniqueIdentifier: TableForm.contactMatrix.rawValue,
             type: .rightDetail(
@@ -158,7 +158,7 @@ extension SettingsViewController: SettingsViewControllerProtocol {
                     accessoryType: .none
                 )
             )
-        )
+        ) */
         
         let openSourceCell = SettingsTableSectionViewModel.Cell(
             uniqueIdentifier: TableForm.openSource.rawValue,
@@ -232,14 +232,14 @@ extension SettingsViewController: SettingsViewControllerProtocol {
         )
         
         let sectionsViewModel: [SettingsTableSectionViewModel] = [
-            .init(
+            /* .init(
                 header: .init(title: "settings-author".localized),
                 cells: [authorGhCell/*, authorTwitterCell, authorTelegramCell*/],
                 footer: nil
-            ),
+            ), */
             .init(
                 header: .init(title: "settings-contactinfo".localized),
-                cells: [contactEmail, contactMatrix],
+                cells: [contactEmail /*, contactMatrix */],
                 footer: nil
             ),
             .init(
@@ -338,7 +338,7 @@ extension SettingsViewController: SettingsViewDelegate {
 
             self.coordinator?.goToBrowser(with: myGh, inApp: false)
         case TableForm.contactEmail.rawValue:
-            self.sendEmail(to: "referred.app@gmail.com")
+            self.sendEmail(to: "bogs.vasile@gmail.com")
         case TableForm.contactMatrix.rawValue:
             guard let url = URL(string: "https://matrix.to/#/%23lemmy:matrix.org") else {
                 return
@@ -348,7 +348,7 @@ extension SettingsViewController: SettingsViewDelegate {
         case TableForm.changeInstance.rawValue:
             self.coordinator?.goToInstances()
         case TableForm.openSource.rawValue:
-            guard let url = URL(string: "https://github.com/CodeConstructed/referred-app") else {
+            guard let url = URL(string: "https://raw.githubusercontent.com/CodeConstructed/referred-app/master/LICENSE") else {
                 return
             }
             
